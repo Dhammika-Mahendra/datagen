@@ -1,0 +1,2038 @@
+[
+  {
+    "text": "The package will be delivered to Priya Sharma at Berlin.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Priya Sharma",
+        "span": [
+          33,
+          45
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Berlin",
+        "span": [
+          49,
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Priya Sharma. Contact me at m.chen@techcorp.io.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Priya Sharma",
+        "span": [
+          8,
+          20
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "m.chen@techcorp.io",
+        "span": [
+          36,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm David Kim. Contact me at sarah.j@outlook.com. I am based in Mumbai.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "David Kim",
+        "span": [
+          8,
+          17
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "sarah.j@outlook.com",
+        "span": [
+          33,
+          52
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Mumbai",
+        "span": [
+          68,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please contact Lucas Müller from our Amsterdam office at yuki.t@corp.jp.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Lucas Müller",
+        "span": [
+          15,
+          27
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Amsterdam",
+        "span": [
+          37,
+          46
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "yuki.t@corp.jp",
+        "span": [
+          57,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The package will be delivered to Kevin Oduya at Chicago.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Kevin Oduya",
+        "span": [
+          33,
+          44
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Chicago",
+        "span": [
+          48,
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Oliver Williams. Contact me at f.alhassan@domain.co.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Oliver Williams",
+        "span": [
+          8,
+          23
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "f.alhassan@domain.co",
+        "span": [
+          39,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Nadia Rahman. Contact me at yuki.t@corp.jp. I am based in Singapore.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Nadia Rahman",
+        "span": [
+          8,
+          20
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "yuki.t@corp.jp",
+        "span": [
+          36,
+          50
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Singapore",
+        "span": [
+          66,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in Singapore.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Singapore",
+        "span": [
+          30,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please contact Amara Nwosu from our Lagos office at msantos@email.br.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Amara Nwosu",
+        "span": [
+          15,
+          26
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Lagos",
+        "span": [
+          36,
+          41
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "msantos@email.br",
+        "span": [
+          52,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is Nadia Rahman and my email address is sophia.l@contact.fr.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Nadia Rahman",
+        "span": [
+          11,
+          23
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "sophia.l@contact.fr",
+        "span": [
+          48,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Feel free to email Michael Chen directly at msantos@email.br for more information.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Michael Chen",
+        "span": [
+          19,
+          31
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "msantos@email.br",
+        "span": [
+          44,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Michael Chen. Contact me at sarah.j@outlook.com. I am based in Seoul.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Michael Chen",
+        "span": [
+          8,
+          20
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "sarah.j@outlook.com",
+        "span": [
+          36,
+          55
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Seoul",
+        "span": [
+          71,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please reach out to us at sophia.l@contact.fr for any queries.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "sophia.l@contact.fr",
+        "span": [
+          26,
+          45
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Yuki Tanaka. Contact me at msantos@email.br.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Yuki Tanaka",
+        "span": [
+          8,
+          19
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "msantos@email.br",
+        "span": [
+          35,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Feel free to email Sophia Leclaire directly at eclarke@company.org for more information.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Sophia Leclaire",
+        "span": [
+          19,
+          34
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "eclarke@company.org",
+        "span": [
+          47,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Sarah Johnson currently lives in London.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Sarah Johnson",
+        "span": [
+          0,
+          13
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "London",
+        "span": [
+          33,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please contact James O'Brien from our Dubai office at jobrien@mailbox.com.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "James O'Brien",
+        "span": [
+          15,
+          28
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Dubai",
+        "span": [
+          38,
+          43
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "jobrien@mailbox.com",
+        "span": [
+          54,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in Stockholm.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Stockholm",
+        "span": [
+          30,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in Chicago.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Chicago",
+        "span": [
+          30,
+          37
+        ]
+      }
+    ]
+  },
+  {
+    "text": "For our Bangalore branch inquiries, please write to eclarke@company.org.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Bangalore",
+        "span": [
+          8,
+          17
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "eclarke@company.org",
+        "span": [
+          52,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Priya Sharma currently lives in Chicago.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Priya Sharma",
+        "span": [
+          0,
+          12
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Chicago",
+        "span": [
+          32,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is Aisha Patel, I live in São Paulo, and you can reach me at david.kim@startup.dev.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Aisha Patel",
+        "span": [
+          11,
+          22
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "São Paulo",
+        "span": [
+          34,
+          43
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "david.kim@startup.dev",
+        "span": [
+          69,
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please contact Maria Santos from our Singapore office at owilliams@service.com.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Maria Santos",
+        "span": [
+          15,
+          27
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Singapore",
+        "span": [
+          37,
+          46
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "owilliams@service.com",
+        "span": [
+          57,
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please reach out to us at jobrien@mailbox.com for any queries.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "jobrien@mailbox.com",
+        "span": [
+          26,
+          45
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The package will be delivered to Emily Clarke at Tokyo.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Emily Clarke",
+        "span": [
+          33,
+          45
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Tokyo",
+        "span": [
+          49,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Amara Nwosu. Contact me at hbergstrom@nord.se. I am based in Amsterdam.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Amara Nwosu",
+        "span": [
+          8,
+          19
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "hbergstrom@nord.se",
+        "span": [
+          35,
+          53
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Amsterdam",
+        "span": [
+          69,
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm David Kim. Contact me at a.petrov@post.ru. I am based in Paris.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "David Kim",
+        "span": [
+          8,
+          17
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "a.petrov@post.ru",
+        "span": [
+          33,
+          49
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Paris",
+        "span": [
+          65,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "text": "You can send your application to david.kim@startup.dev.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "david.kim@startup.dev",
+        "span": [
+          33,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "text": "John Perera currently lives in Bangalore.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "John Perera",
+        "span": [
+          0,
+          11
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Bangalore",
+        "span": [
+          31,
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in Berlin.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Berlin",
+        "span": [
+          30,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is David Kim, I live in Chicago, and you can reach me at priya.sharma@example.net.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "David Kim",
+        "span": [
+          11,
+          20
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Chicago",
+        "span": [
+          32,
+          39
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "priya.sharma@example.net",
+        "span": [
+          65,
+          89
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is James O'Brien and my email address is f.alhassan@domain.co.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "James O'Brien",
+        "span": [
+          11,
+          24
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "f.alhassan@domain.co",
+        "span": [
+          49,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, my name is Yuki Tanaka.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Yuki Tanaka",
+        "span": [
+          15,
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Kevin Oduya. Contact me at owilliams@service.com.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Kevin Oduya",
+        "span": [
+          8,
+          19
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "owilliams@service.com",
+        "span": [
+          35,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is Michael Chen, I live in Dubai, and you can reach me at aisha.patel@inbox.in.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Michael Chen",
+        "span": [
+          11,
+          23
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Dubai",
+        "span": [
+          35,
+          40
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "aisha.patel@inbox.in",
+        "span": [
+          66,
+          86
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in Stockholm.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Stockholm",
+        "span": [
+          30,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Oliver Williams. Contact me at jobrien@mailbox.com.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Oliver Williams",
+        "span": [
+          8,
+          23
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "jobrien@mailbox.com",
+        "span": [
+          39,
+          58
+        ]
+      }
+    ]
+  },
+  {
+    "text": "For our Mumbai branch inquiries, please write to hbergstrom@nord.se.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Mumbai",
+        "span": [
+          8,
+          14
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "hbergstrom@nord.se",
+        "span": [
+          49,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hello, I am Yuki Tanaka and I would like to introduce myself.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Yuki Tanaka",
+        "span": [
+          12,
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is Aisha Patel and my email address is sophia.l@contact.fr.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Aisha Patel",
+        "span": [
+          11,
+          22
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "sophia.l@contact.fr",
+        "span": [
+          47,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Feel free to email Nadia Rahman directly at kevin.o@business.ke for more information.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Nadia Rahman",
+        "span": [
+          19,
+          31
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "kevin.o@business.ke",
+        "span": [
+          44,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The package will be delivered to Amara Nwosu at Bangalore.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Amara Nwosu",
+        "span": [
+          33,
+          44
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Bangalore",
+        "span": [
+          48,
+          57
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is Yuki Tanaka and my email address is david.kim@startup.dev.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Yuki Tanaka",
+        "span": [
+          11,
+          22
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "david.kim@startup.dev",
+        "span": [
+          47,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "text": "For our Berlin branch inquiries, please write to priya.sharma@example.net.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Berlin",
+        "span": [
+          8,
+          14
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "priya.sharma@example.net",
+        "span": [
+          49,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Feel free to email James O'Brien directly at jobrien@mailbox.com for more information.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "James O'Brien",
+        "span": [
+          19,
+          32
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "jobrien@mailbox.com",
+        "span": [
+          45,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please reach out to us at nadia.r@connect.uk for any queries.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "nadia.r@connect.uk",
+        "span": [
+          26,
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in Toronto.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Toronto",
+        "span": [
+          30,
+          37
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Maria Santos. Contact me at sarah.j@outlook.com. I am based in Singapore.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Maria Santos",
+        "span": [
+          8,
+          20
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "sarah.j@outlook.com",
+        "span": [
+          36,
+          55
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Singapore",
+        "span": [
+          71,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Lucas Müller. Contact me at msantos@email.br. I am based in Stockholm.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Lucas Müller",
+        "span": [
+          8,
+          20
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "msantos@email.br",
+        "span": [
+          36,
+          52
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Stockholm",
+        "span": [
+          68,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Feel free to email Amara Nwosu directly at hbergstrom@nord.se for more information.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Amara Nwosu",
+        "span": [
+          19,
+          30
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "hbergstrom@nord.se",
+        "span": [
+          43,
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is Michael Chen, I live in Colombo, and you can reach me at sarah.j@outlook.com.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Michael Chen",
+        "span": [
+          11,
+          23
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Colombo",
+        "span": [
+          35,
+          42
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "sarah.j@outlook.com",
+        "span": [
+          68,
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The package will be delivered to Kevin Oduya at Cape Town.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Kevin Oduya",
+        "span": [
+          33,
+          44
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Cape Town",
+        "span": [
+          48,
+          57
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is Michael Chen, I live in Dubai, and you can reach me at owilliams@service.com.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Michael Chen",
+        "span": [
+          11,
+          23
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Dubai",
+        "span": [
+          35,
+          40
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "owilliams@service.com",
+        "span": [
+          66,
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Feel free to email Lucas Müller directly at jobrien@mailbox.com for more information.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Lucas Müller",
+        "span": [
+          19,
+          31
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "jobrien@mailbox.com",
+        "span": [
+          44,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please reach out to us at a.petrov@post.ru for any queries.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "a.petrov@post.ru",
+        "span": [
+          26,
+          42
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The package will be delivered to Yuki Tanaka at Mumbai.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Yuki Tanaka",
+        "span": [
+          33,
+          44
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Mumbai",
+        "span": [
+          48,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "text": "You can send your application to john.perera@gmail.com.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "john.perera@gmail.com",
+        "span": [
+          33,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is Maria Santos, I live in Colombo, and you can reach me at hbergstrom@nord.se.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Maria Santos",
+        "span": [
+          11,
+          23
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Colombo",
+        "span": [
+          35,
+          42
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "hbergstrom@nord.se",
+        "span": [
+          68,
+          86
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is John Perera and my email address is msantos@email.br.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "John Perera",
+        "span": [
+          11,
+          22
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "msantos@email.br",
+        "span": [
+          47,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in Chicago.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Chicago",
+        "span": [
+          30,
+          37
+        ]
+      }
+    ]
+  },
+  {
+    "text": "For our Bangalore branch inquiries, please write to jobrien@mailbox.com.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Bangalore",
+        "span": [
+          8,
+          17
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "jobrien@mailbox.com",
+        "span": [
+          52,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "text": "You can send your application to hbergstrom@nord.se.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "hbergstrom@nord.se",
+        "span": [
+          33,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Yuki Tanaka currently lives in London.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Yuki Tanaka",
+        "span": [
+          0,
+          11
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "London",
+        "span": [
+          31,
+          37
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in Amsterdam.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Amsterdam",
+        "span": [
+          30,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hello, I am Sophia Leclaire and I would like to introduce myself.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Sophia Leclaire",
+        "span": [
+          12,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please contact Yuki Tanaka from our Dubai office at jobrien@mailbox.com.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Yuki Tanaka",
+        "span": [
+          15,
+          26
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Dubai",
+        "span": [
+          36,
+          41
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "jobrien@mailbox.com",
+        "span": [
+          52,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Fatima Al-Hassan currently lives in London.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Fatima Al-Hassan",
+        "span": [
+          0,
+          16
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "London",
+        "span": [
+          36,
+          42
+        ]
+      }
+    ]
+  },
+  {
+    "text": "You can send your application to nadia.r@connect.uk.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "nadia.r@connect.uk",
+        "span": [
+          33,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in Nairobi.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Nairobi",
+        "span": [
+          30,
+          37
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Emily Clarke. Contact me at sophia.l@contact.fr.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Emily Clarke",
+        "span": [
+          8,
+          20
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "sophia.l@contact.fr",
+        "span": [
+          36,
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Maria Santos. Contact me at l.mueller@webmail.de.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Maria Santos",
+        "span": [
+          8,
+          20
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "l.mueller@webmail.de",
+        "span": [
+          36,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "text": "For our Berlin branch inquiries, please write to f.alhassan@domain.co.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Berlin",
+        "span": [
+          8,
+          14
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "f.alhassan@domain.co",
+        "span": [
+          49,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in São Paulo.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "São Paulo",
+        "span": [
+          30,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in São Paulo.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "São Paulo",
+        "span": [
+          30,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The event will be held in Dubai this year.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Dubai",
+        "span": [
+          26,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The package will be delivered to Hannah Bergström at Toronto.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Hannah Bergström",
+        "span": [
+          33,
+          49
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Toronto",
+        "span": [
+          53,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, my name is Priya Sharma.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Priya Sharma",
+        "span": [
+          15,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hello, I am Emily Clarke and I would like to introduce myself.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Emily Clarke",
+        "span": [
+          12,
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please reach out to us at priya.sharma@example.net for any queries.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "priya.sharma@example.net",
+        "span": [
+          26,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Feel free to email Oliver Williams directly at sophia.l@contact.fr for more information.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Oliver Williams",
+        "span": [
+          19,
+          34
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "sophia.l@contact.fr",
+        "span": [
+          47,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please contact Nadia Rahman from our Tokyo office at nadia.r@connect.uk.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Nadia Rahman",
+        "span": [
+          15,
+          27
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Tokyo",
+        "span": [
+          37,
+          42
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "nadia.r@connect.uk",
+        "span": [
+          53,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please contact Amara Nwosu from our Toronto office at yuki.t@corp.jp.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Amara Nwosu",
+        "span": [
+          15,
+          26
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Toronto",
+        "span": [
+          36,
+          43
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "yuki.t@corp.jp",
+        "span": [
+          54,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "text": "For our Dubai branch inquiries, please write to john.perera@gmail.com.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Dubai",
+        "span": [
+          8,
+          13
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "john.perera@gmail.com",
+        "span": [
+          48,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in Lagos.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Lagos",
+        "span": [
+          30,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please reach out to us at m.chen@techcorp.io for any queries.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "m.chen@techcorp.io",
+        "span": [
+          26,
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "text": "For our Seoul branch inquiries, please write to hbergstrom@nord.se.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Seoul",
+        "span": [
+          8,
+          13
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "hbergstrom@nord.se",
+        "span": [
+          48,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Feel free to email Kevin Oduya directly at nadia.r@connect.uk for more information.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Kevin Oduya",
+        "span": [
+          19,
+          30
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "nadia.r@connect.uk",
+        "span": [
+          43,
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "text": "The event will be held in Sydney this year.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Sydney",
+        "span": [
+          26,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "text": "You can send your application to f.alhassan@domain.co.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "f.alhassan@domain.co",
+        "span": [
+          33,
+          53
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Feel free to email Carlos Mendoza directly at m.chen@techcorp.io for more information.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Carlos Mendoza",
+        "span": [
+          19,
+          33
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "m.chen@techcorp.io",
+        "span": [
+          46,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "text": "My name is David Kim, I live in Lagos, and you can reach me at priya.sharma@example.net.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "David Kim",
+        "span": [
+          11,
+          20
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Lagos",
+        "span": [
+          32,
+          37
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "priya.sharma@example.net",
+        "span": [
+          63,
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please contact Amara Nwosu from our Nairobi office at f.alhassan@domain.co.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Amara Nwosu",
+        "span": [
+          15,
+          26
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Nairobi",
+        "span": [
+          36,
+          43
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "f.alhassan@domain.co",
+        "span": [
+          54,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "text": "You can send your application to yuki.t@corp.jp.",
+    "entities": [
+      {
+        "type": "EMAIL",
+        "value": "yuki.t@corp.jp",
+        "span": [
+          33,
+          47
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Kevin Oduya. Contact me at sarah.j@outlook.com.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Kevin Oduya",
+        "span": [
+          8,
+          19
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "sarah.j@outlook.com",
+        "span": [
+          35,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hi, I'm Emily Clarke. Contact me at a.petrov@post.ru.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Emily Clarke",
+        "span": [
+          8,
+          20
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "a.petrov@post.ru",
+        "span": [
+          36,
+          52
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Our main office is located in New York City.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "New York City",
+        "span": [
+          30,
+          43
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please contact Maria Santos from our Berlin office at priya.sharma@example.net.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Maria Santos",
+        "span": [
+          15,
+          27
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Berlin",
+        "span": [
+          37,
+          43
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "priya.sharma@example.net",
+        "span": [
+          54,
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Feel free to email Fatima Al-Hassan directly at l.mueller@webmail.de for more information.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Fatima Al-Hassan",
+        "span": [
+          19,
+          35
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "l.mueller@webmail.de",
+        "span": [
+          48,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hannah Bergström currently lives in Seoul.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Hannah Bergström",
+        "span": [
+          0,
+          16
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Seoul",
+        "span": [
+          36,
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Please contact Aisha Patel from our Berlin office at hbergstrom@nord.se.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Aisha Patel",
+        "span": [
+          15,
+          26
+        ]
+      },
+      {
+        "type": "LOCATION",
+        "value": "Berlin",
+        "span": [
+          36,
+          42
+        ]
+      },
+      {
+        "type": "EMAIL",
+        "value": "hbergstrom@nord.se",
+        "span": [
+          53,
+          71
+        ]
+      }
+    ]
+  }
+]

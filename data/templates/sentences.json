@@ -1,0 +1,77 @@
+[
+  {
+    "id": "name_only_1",
+    "template": "Hi, my name is {NAME}.",
+    "entities": ["NAME"]
+  },
+  {
+    "id": "name_only_2",
+    "template": "Hello, I am {NAME} and I would like to introduce myself.",
+    "entities": ["NAME"]
+  },
+  {
+    "id": "email_only_1",
+    "template": "Please reach out to us at {EMAIL} for any queries.",
+    "entities": ["EMAIL"]
+  },
+  {
+    "id": "email_only_2",
+    "template": "You can send your application to {EMAIL}.",
+    "entities": ["EMAIL"]
+  },
+  {
+    "id": "location_only_1",
+    "template": "Our main office is located in {LOCATION}.",
+    "entities": ["LOCATION"]
+  },
+  {
+    "id": "location_only_2",
+    "template": "The event will be held in {LOCATION} this year.",
+    "entities": ["LOCATION"]
+  },
+  {
+    "id": "name_email_1",
+    "template": "Hi, I'm {NAME}. Contact me at {EMAIL}.",
+    "entities": ["NAME", "EMAIL"]
+  },
+  {
+    "id": "name_email_2",
+    "template": "My name is {NAME} and my email address is {EMAIL}.",
+    "entities": ["NAME", "EMAIL"]
+  },
+  {
+    "id": "name_email_3",
+    "template": "Feel free to email {NAME} directly at {EMAIL} for more information.",
+    "entities": ["NAME", "EMAIL"]
+  },
+  {
+    "id": "name_location_1",
+    "template": "{NAME} currently lives in {LOCATION}.",
+    "entities": ["NAME", "LOCATION"]
+  },
+  {
+    "id": "name_location_2",
+    "template": "The package will be delivered to {NAME} at {LOCATION}.",
+    "entities": ["NAME", "LOCATION"]
+  },
+  {
+    "id": "email_location_1",
+    "template": "For our {LOCATION} branch inquiries, please write to {EMAIL}.",
+    "entities": ["LOCATION", "EMAIL"]
+  },
+  {
+    "id": "name_email_location_1",
+    "template": "Hi, I'm {NAME}. Contact me at {EMAIL}. I am based in {LOCATION}.",
+    "entities": ["NAME", "EMAIL", "LOCATION"]
+  },
+  {
+    "id": "name_email_location_2",
+    "template": "My name is {NAME}, I live in {LOCATION}, and you can reach me at {EMAIL}.",
+    "entities": ["NAME", "EMAIL", "LOCATION"]
+  },
+  {
+    "id": "name_email_location_3",
+    "template": "Please contact {NAME} from our {LOCATION} office at {EMAIL}.",
+    "entities": ["NAME", "EMAIL", "LOCATION"]
+  }
+]

@@ -1,0 +1,41 @@
+
+Entity Sensitivity
+-----------------------------
+IDNo-3
+BankAccNo-3
+PhoneNo-2
+Address-2
+Email-2
+Name-1
+UserName-1
+Organization-1
+
+Combination Sensitivity (Risk grows non-linearly with combinations)
+------------------------------
+1 - Name, Organization
+2 - Name + Email , UserName + Phone
+3 - Name + Phone , Name + Address
+4 - Name + IDNo , Name + BankAccNo
+5 - Name + Phone + Address , Name + IDNo + BankAccNo
+
+Entity Density 
+
+Author relationshiop - related/notrelated
+---------------------------------
+Personal
+Mixed
+Public
+
+=================================================================
+                    Extra
+=================================================================
+
+Phrase Variations (My phone number is ... / You can conatact me at ...)
+Position & Distribution of entity within sentense 
+    - Startt, Mid, End
+    - Clusterd/ Scattered
+Linkability Patterns (How each entity is linked)
+Template Complexity Levels (sentense,paragraph)
+Domain Variation
+
+
