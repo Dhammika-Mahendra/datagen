@@ -1,55 +1,117 @@
 [
   {
-    "text": "Hi, my name is Michael Chen.",
-    "entities": [
-      {
-        "type": "NAME",
-        "value": "Michael Chen",
-        "span": [
-          15,
-          27
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Hi, my name is Emily Clarke.",
+    "text": "I'm Emily Clarke. My email is amara.nwosu@yahoo.com and I live in Sydney, Australia.",
     "entities": [
       {
         "type": "NAME",
         "value": "Emily Clarke",
         "span": [
-          15,
-          27
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Hi, my name is Amara Nwosu.",
-    "entities": [
+          4,
+          16
+        ],
+        "severity": 3
+      },
       {
-        "type": "NAME",
-        "value": "Amara Nwosu",
+        "type": "EMAIL",
+        "value": "amara.nwosu@yahoo.com",
         "span": [
-          15,
-          26
-        ]
+          30,
+          51
+        ],
+        "severity": 3
+      },
+      {
+        "type": "LOCATION",
+        "value": "Sydney, Australia",
+        "span": [
+          66,
+          83
+        ],
+        "severity": 1
       }
-    ]
+    ],
+    "risk": 7
   },
   {
-    "text": "Hello, I am Michael Chen and I would like to introduce myself.",
+    "text": "I'm Sarah Johnson. My email is john.perera@gmail.com and I live in New York, USA.",
     "entities": [
       {
         "type": "NAME",
-        "value": "Michael Chen",
+        "value": "Sarah Johnson",
+        "span": [
+          4,
+          17
+        ],
+        "severity": 3
+      },
+      {
+        "type": "EMAIL",
+        "value": "john.perera@gmail.com",
+        "span": [
+          31,
+          52
+        ],
+        "severity": 3
+      },
+      {
+        "type": "LOCATION",
+        "value": "New York, USA",
+        "span": [
+          67,
+          80
+        ],
+        "severity": 1
+      }
+    ],
+    "risk": 7
+  },
+  {
+    "text": "I'm John Perera. My email is eclarke@company.org and I live in Berlin, Germany.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "John Perera",
+        "span": [
+          4,
+          15
+        ],
+        "severity": 3
+      },
+      {
+        "type": "EMAIL",
+        "value": "eclarke@company.org",
+        "span": [
+          29,
+          48
+        ],
+        "severity": 3
+      },
+      {
+        "type": "LOCATION",
+        "value": "Berlin, Germany",
+        "span": [
+          63,
+          78
+        ],
+        "severity": 1
+      }
+    ],
+    "risk": 7
+  },
+  {
+    "text": "Hello, I am Sarah Johnson and I would like to introduce myself.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Sarah Johnson",
         "span": [
           12,
-          24
-        ]
+          25
+        ],
+        "severity": 3
       }
-    ]
+    ],
+    "risk": 3
   },
   {
     "text": "Hello, I am Amara Nwosu and I would like to introduce myself.",
@@ -60,61 +122,26 @@
         "span": [
           12,
           23
-        ]
+        ],
+        "severity": 3
       }
-    ]
+    ],
+    "risk": 3
   },
   {
-    "text": "Hello, I am Emily Clarke and I would like to introduce myself.",
+    "text": "Hello, I am John Perera and I would like to introduce myself.",
     "entities": [
       {
         "type": "NAME",
-        "value": "Emily Clarke",
+        "value": "John Perera",
         "span": [
           12,
-          24
-        ]
+          23
+        ],
+        "severity": 3
       }
-    ]
-  },
-  {
-    "text": "Please reach out to us at eclarke@company.org for any queries.",
-    "entities": [
-      {
-        "type": "EMAIL",
-        "value": "eclarke@company.org",
-        "span": [
-          26,
-          45
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Please reach out to us at m.chen@techcorp.io for any queries.",
-    "entities": [
-      {
-        "type": "EMAIL",
-        "value": "m.chen@techcorp.io",
-        "span": [
-          26,
-          44
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Please reach out to us at sarah.j@outlook.com for any queries.",
-    "entities": [
-      {
-        "type": "EMAIL",
-        "value": "sarah.j@outlook.com",
-        "span": [
-          26,
-          45
-        ]
-      }
-    ]
+    ],
+    "risk": 3
   },
   {
     "text": "You can send your application to john.perera@gmail.com.",
@@ -125,100 +152,41 @@
         "span": [
           33,
           54
-        ]
+        ],
+        "severity": 3
       }
-    ]
+    ],
+    "risk": 3
   },
   {
-    "text": "You can send your application to amara.nwosu@yahoo.com.",
+    "text": "You can send your application to eclarke@company.org.",
     "entities": [
       {
         "type": "EMAIL",
-        "value": "amara.nwosu@yahoo.com",
+        "value": "eclarke@company.org",
         "span": [
           33,
-          54
-        ]
+          52
+        ],
+        "severity": 3
       }
-    ]
+    ],
+    "risk": 3
   },
   {
-    "text": "You can send your application to m.chen@techcorp.io.",
+    "text": "You can send your application to sarah.j@outlook.com.",
     "entities": [
       {
         "type": "EMAIL",
-        "value": "m.chen@techcorp.io",
+        "value": "sarah.j@outlook.com",
         "span": [
           33,
-          51
-        ]
+          52
+        ],
+        "severity": 3
       }
-    ]
-  },
-  {
-    "text": "Our main office is located in Sydney, Australia.",
-    "entities": [
-      {
-        "type": "LOCATION",
-        "value": "Sydney, Australia",
-        "span": [
-          30,
-          47
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Our main office is located in New York, USA.",
-    "entities": [
-      {
-        "type": "LOCATION",
-        "value": "New York, USA",
-        "span": [
-          30,
-          43
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Our main office is located in Berlin, Germany.",
-    "entities": [
-      {
-        "type": "LOCATION",
-        "value": "Berlin, Germany",
-        "span": [
-          30,
-          45
-        ]
-      }
-    ]
-  },
-  {
-    "text": "The event will be held in Sydney, Australia this year.",
-    "entities": [
-      {
-        "type": "LOCATION",
-        "value": "Sydney, Australia",
-        "span": [
-          26,
-          43
-        ]
-      }
-    ]
-  },
-  {
-    "text": "The event will be held in Toronto, Canada this year.",
-    "entities": [
-      {
-        "type": "LOCATION",
-        "value": "Toronto, Canada",
-        "span": [
-          26,
-          41
-        ]
-      }
-    ]
+    ],
+    "risk": 3
   },
   {
     "text": "The event will be held in New York, USA this year.",
@@ -229,33 +197,92 @@
         "span": [
           26,
           39
-        ]
+        ],
+        "severity": 1
       }
-    ]
+    ],
+    "risk": 1
   },
   {
-    "text": "Hi, I'm Emily Clarke. Contact me at sarah.j@outlook.com.",
+    "text": "The event will be held in Toronto, Canada this year.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Toronto, Canada",
+        "span": [
+          26,
+          41
+        ],
+        "severity": 1
+      }
+    ],
+    "risk": 1
+  },
+  {
+    "text": "The event will be held in Sydney, Australia this year.",
+    "entities": [
+      {
+        "type": "LOCATION",
+        "value": "Sydney, Australia",
+        "span": [
+          26,
+          43
+        ],
+        "severity": 1
+      }
+    ],
+    "risk": 1
+  },
+  {
+    "text": "Hi, I'm John Perera. Contact me at eclarke@company.org.",
     "entities": [
       {
         "type": "NAME",
-        "value": "Emily Clarke",
+        "value": "John Perera",
         "span": [
           8,
-          20
-        ]
+          19
+        ],
+        "severity": 3
+      },
+      {
+        "type": "EMAIL",
+        "value": "eclarke@company.org",
+        "span": [
+          35,
+          54
+        ],
+        "severity": 3
+      }
+    ],
+    "risk": 6
+  },
+  {
+    "text": "Hi, I'm Amara Nwosu. Contact me at sarah.j@outlook.com.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Amara Nwosu",
+        "span": [
+          8,
+          19
+        ],
+        "severity": 3
       },
       {
         "type": "EMAIL",
         "value": "sarah.j@outlook.com",
         "span": [
-          36,
-          55
-        ]
+          35,
+          54
+        ],
+        "severity": 3
       }
-    ]
+    ],
+    "risk": 6
   },
   {
-    "text": "Hi, I'm Michael Chen. Contact me at m.chen@techcorp.io.",
+    "text": "Hi, I'm Michael Chen. Contact me at amara.nwosu@yahoo.com.",
     "entities": [
       {
         "type": "NAME",
@@ -263,37 +290,19 @@
         "span": [
           8,
           20
-        ]
-      },
-      {
-        "type": "EMAIL",
-        "value": "m.chen@techcorp.io",
-        "span": [
-          36,
-          54
-        ]
-      }
-    ]
-  },
-  {
-    "text": "Hi, I'm Sarah Johnson. Contact me at amara.nwosu@yahoo.com.",
-    "entities": [
-      {
-        "type": "NAME",
-        "value": "Sarah Johnson",
-        "span": [
-          8,
-          21
-        ]
+        ],
+        "severity": 3
       },
       {
         "type": "EMAIL",
         "value": "amara.nwosu@yahoo.com",
         "span": [
-          37,
-          58
-        ]
+          36,
+          57
+        ],
+        "severity": 3
       }
-    ]
+    ],
+    "risk": 6
   }
 ]

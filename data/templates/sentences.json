@@ -1,8 +1,8 @@
 [
   {
     "id": "name_only_1",
-    "template": "Hi, my name is {NAME}.",
-    "entities": ["NAME"]
+    "template": "I'm {NAME}. My email is {EMAIL} and I live in {LOCATION}.",
+    "entities": ["NAME", "EMAIL", "LOCATION"]
   },
   {
     "id": "name_only_2",
@@ -10,19 +10,9 @@
     "entities": ["NAME"]
   },
   {
-    "id": "email_only_1",
-    "template": "Please reach out to us at {EMAIL} for any queries.",
-    "entities": ["EMAIL"]
-  },
-  {
     "id": "email_only_2",
     "template": "You can send your application to {EMAIL}.",
     "entities": ["EMAIL"]
-  },
-  {
-    "id": "location_only_1",
-    "template": "Our main office is located in {LOCATION}.",
-    "entities": ["LOCATION"]
   },
   {
     "id": "location_only_2",

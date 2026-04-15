@@ -7,7 +7,8 @@ exact character span [start, end] of each inserted entity in the final text.
 Span convention: start is inclusive, end is exclusive (Python slice style).
 Example: text[start:end] == entity_value
 """
-
+import json
+import os
 
 def build_text_with_spans(template: str, entity_values: dict[str, str]) -> tuple[str, list[dict]]:
     """
@@ -44,7 +45,8 @@ def build_text_with_spans(template: str, entity_values: dict[str, str]) -> tuple
         spans.append({
             "type":  entity_type,
             "value": value,
-            "span":  [start, end]
+            "span":  [start, end],
+            "severity": get_severity(entity_type)  # Add severity to the span dict
         })
 
     return text, spans
@@ -65,3 +67,15 @@ def _ordered_placeholders(template: str, entity_values: dict[str, str]) -> list[
     # Sort by position so we fill left-to-right
     positions.sort(key=lambda x: x[0])
     return [(entity_type, value) for _, entity_type, value in positions]
+
+#severity.json file loading
+def load_severity() -> dict[str, int]:
+    path = os.path.join(os.path.dirname(__file__), "..", "data", "severity.json")
+    with open(path, "r", encoding="utf-8") as f:
+        severity = json.load(f)
+    return severity
+
+#get the severity value for each entity type frm severity.json file
+def get_severity(entity_type: str) -> int:
+    severity = load_severity()
+    return severity.get(entity_type, 0)  # Default to 0 if not found
