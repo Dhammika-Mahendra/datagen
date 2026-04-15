@@ -31,13 +31,13 @@ def assemble_record(template: dict, pii_values: dict[str, list[str]]) -> dict:
     Returns:
         A dict with 'text' and 'entities' keys ready for JSON serialisation.
     """
-    # Step 1: Sample one PII value per entity type the template requires
+    # Step 1: Sample PII values per entity type the template requires
     entity_values = sample_entities(template["entities"], pii_values)
 
     # Step 2: Fill placeholders and get spans
-    text, entity_spans = build_text_with_spans(template["template"], entity_values)
+    array = []
+    for entity in entity_values:
+      text, entity_spans = build_text_with_spans(template["template"], entity)
+      array.append({"text": text, "entities": entity_spans})
 
-    return {
-        "text": text,
-        "entities": entity_spans
-    }
+    return array

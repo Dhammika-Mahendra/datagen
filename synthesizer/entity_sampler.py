@@ -8,8 +8,9 @@ repeating the same value for the same entity type (e.g., two identical names).
 
 import random
 
+SAMPLING_COUNT = 3  # Number of values to sample per entity type (can be >1 for multi-entity templates)
 
-def sample_entities(entity_types: list[str], pii_values: dict[str, list[str]]) -> dict[str, str]:
+def sample_entities(entity_types: list[str], pii_values: dict[str, list[str]]) -> list[dict]:
     """
     For each entity type in the list, randomly pick a value from pii_values.
 
@@ -18,15 +19,29 @@ def sample_entities(entity_types: list[str], pii_values: dict[str, list[str]]) -
         pii_values:   Dict mapping entity types to their available value lists.
 
     Returns:
-        Dict mapping each entity type to one sampled value, e.g.:
-        { "NAME": "John Perera", "EMAIL": "john@gmail.com" }
+        List of dicts, each containing an entity type and its sampled value, e.g.:
+        [{"type": "NAME", "value": "John Perera"}, {"type": "EMAIL", "value": "john@gmail.com"}]
 
     Raises:
         KeyError: If an entity type has no registered value list.
     """
-    sampled = {}
+    array = []
+    pools: dict[str, list[str]] = {}
     for entity_type in entity_types:
-        if entity_type not in pii_values:
-            raise KeyError(f"No PII value list found for entity type: '{entity_type}'")
-        sampled[entity_type] = random.choice(pii_values[entity_type])
-    return sampled
+        values = pii_values[entity_type]
+        if len(values) < SAMPLING_COUNT:
+            raise ValueError(
+                f"Not enough unique values for {entity_type}: "
+                f"need {SAMPLING_COUNT}, have {len(values)}"
+            )
+        shuffled = values[:]
+        random.shuffle(shuffled)
+        pools[entity_type] = shuffled
+    for _ in range(SAMPLING_COUNT):
+        sampled = {}
+        for entity_type in entity_types:
+            sampled[entity_type] = pools[entity_type].pop()
+        array.append(sampled)
+    
+    return array
+ 

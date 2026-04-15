@@ -20,23 +20,39 @@ ENTITY_FILE_MAP = {
     "LOCATION": "locations.json",
 }
 
-
+#Load all sentence templates from the templates directory
 def load_templates() -> list[dict]:
-    """Load all sentence templates from the templates directory."""
     path = os.path.join(TEMPLATES_DIR, "sentences.json")
     with open(path, "r", encoding="utf-8") as f:
         templates = json.load(f)
+    global _templates_cache
+    _templates_cache = templates
     return templates
 
-
+# Load PII values dict from pii.json file in the pii_values directory
 def load_pii_values() -> dict[str, list[str]]:
-    """
-    Load PII value lists for all registered entity types.
-    Returns a dict: { "NAME": [...], "EMAIL": [...], ... }
-    """
-    pii_values = {}
-    for entity_type, filename in ENTITY_FILE_MAP.items():
-        path = os.path.join(PII_VALUES_DIR, filename)
-        with open(path, "r", encoding="utf-8") as f:
-            pii_values[entity_type] = json.load(f)
+    path = os.path.join(PII_VALUES_DIR, "pii.json")
+    with open(path, "r", encoding="utf-8") as f:
+        pii_values = json.load(f)
     return pii_values
+
+# template selector in not random
+_template_index = 0
+_templates_cache: list[dict] | None = None
+
+def select_template() -> dict:
+    global _template_index, _templates_cache
+    if _templates_cache is None:
+        _templates_cache = load_templates()
+    if not _templates_cache:
+        raise ValueError("templates list is empty")
+    template = _templates_cache[_template_index % len(_templates_cache)]
+    _template_index += 1
+    return template
+
+#return template elements length
+def get_template_count() -> int:
+    global _templates_cache
+    if _templates_cache is None:
+        _templates_cache = load_templates()
+    return len(_templates_cache)

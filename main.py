@@ -14,7 +14,7 @@ import argparse
 import random
 import os
 
-from synthesizer.data_loader import load_templates, load_pii_values
+from synthesizer.data_loader import load_templates, load_pii_values, select_template, get_template_count
 from synthesizer.record_assembler import assemble_record
 from synthesizer.output_writer import write_dataset
 
@@ -42,7 +42,7 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def generate_dataset(count: int, seed: int | None = None) -> list[dict]:
+def generate_dataset(seed: int | None = None) -> list[dict]:
     """
     Core generation loop.
 
@@ -53,6 +53,7 @@ def generate_dataset(count: int, seed: int | None = None) -> list[dict]:
     Returns:
         List of assembled record dicts.
     """
+
     if seed is not None:
         random.seed(seed)
         print(f"[i] Random seed set to {seed}")
@@ -60,23 +61,30 @@ def generate_dataset(count: int, seed: int | None = None) -> list[dict]:
     # Load data assets from local files
     templates = load_templates()
     pii_values = load_pii_values()
+    #print all pii_values
+    for entity_type, values in pii_values.items():
+        print(f"[i] {entity_type}: {', '.join(values)}")
 
     print(f"[i] Loaded {len(templates)} templates and {sum(len(v) for v in pii_values.values())} PII values")
-    print(f"[i] Generating {count} records...")
+    print(f"[i] Generating {get_template_count()} records...")
 
     records = []
-    for _ in range(count):
+    for _ in range(get_template_count()):
         # Pick a random template for each record
-        template = random.choice(templates)
+        template = select_template()
         record = assemble_record(template, pii_values)
-        records.append(record)
+        #record may be single or multiple elements array, break it and append to records
+        if isinstance(record, list):
+            records.extend(record)
+        else:           
+            records.append(record)
 
     return records
 
 
 def main():
     args = parse_args()
-    records = generate_dataset(count=args.count, seed=args.seed)
+    records = generate_dataset(seed=args.seed)
     write_dataset(records, args.output)
 
 
