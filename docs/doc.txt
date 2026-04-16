@@ -34,6 +34,7 @@ Phrase Variations (My phone number is ... / You can conatact me at ...)
 Position & Distribution of entity within sentense 
     - Startt, Mid, End
     - Clusterd/ Scattered
+Entity type repetetivness 
 Linkability Patterns (How each entity is linked)
 Template Complexity Levels (sentense,paragraph)
 Domain Variation

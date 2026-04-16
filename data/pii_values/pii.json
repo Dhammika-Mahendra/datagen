@@ -4,20 +4,34 @@
   "sarah.j@outlook.com",
   "m.chen@techcorp.io",
   "amara.nwosu@yahoo.com",
-  "eclarke@company.org"
+  "eclarke@company.org",
+  "d.lee@university.edu",
+  "s.miller@research.institute",
+  "r.wilson@foundation.org",
+  "l.johnson@nonprofit.org"
 ],
 "NAME":[
   "John Perera",
   "Sarah Johnson",
   "Michael Chen",
   "Amara Nwosu",
-  "Emily Clarke"
+  "Emily Clarke",
+  "David Lee",
+  "Sophia Martinez",
+  "James Wilson",
+  "Olivia Brown",
+  "Liam Davis"
 ],
 "LOCATION":[
   "New York, USA",
   "London, UK",
   "Sydney, Australia",
   "Toronto, Canada",
-  "Berlin, Germany"
+  "Berlin, Germany",
+  "Paris, France",
+  "Tokyo, Japan",
+  "São Paulo, Brazil",
+  "Cape Town, South Africa",
+  "Mumbai, India"
 ]
 }

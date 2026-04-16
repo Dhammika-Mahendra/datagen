@@ -1,297 +1,60 @@
 [
   {
-    "text": "I'm Emily Clarke. My email is amara.nwosu@yahoo.com and I live in Sydney, Australia.",
+    "text": "My friends are Amara Nwosu and {NAME}.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Amara Nwosu",
+        "span": [
+          15,
+          26
+        ],
+        "severity": 1
+      }
+    ],
+    "risk": 1.2079441541679836
+  },
+  {
+    "text": "My friends are Emily Clarke and {NAME}.",
     "entities": [
       {
         "type": "NAME",
         "value": "Emily Clarke",
         "span": [
-          4,
-          16
-        ],
-        "severity": 3
-      },
-      {
-        "type": "EMAIL",
-        "value": "amara.nwosu@yahoo.com",
-        "span": [
-          30,
-          51
-        ],
-        "severity": 3
-      },
-      {
-        "type": "LOCATION",
-        "value": "Sydney, Australia",
-        "span": [
-          66,
-          83
+          15,
+          27
         ],
         "severity": 1
       }
     ],
-    "risk": 7
+    "risk": 1.2079441541679836
   },
   {
-    "text": "I'm Sarah Johnson. My email is john.perera@gmail.com and I live in New York, USA.",
+    "text": "My friends are Liam Davis and {NAME}.",
     "entities": [
       {
         "type": "NAME",
-        "value": "Sarah Johnson",
+        "value": "Liam Davis",
         "span": [
-          4,
-          17
-        ],
-        "severity": 3
-      },
-      {
-        "type": "EMAIL",
-        "value": "john.perera@gmail.com",
-        "span": [
-          31,
-          52
-        ],
-        "severity": 3
-      },
-      {
-        "type": "LOCATION",
-        "value": "New York, USA",
-        "span": [
-          67,
-          80
-        ],
-        "severity": 1
-      }
-    ],
-    "risk": 7
-  },
-  {
-    "text": "I'm John Perera. My email is eclarke@company.org and I live in Berlin, Germany.",
-    "entities": [
-      {
-        "type": "NAME",
-        "value": "John Perera",
-        "span": [
-          4,
-          15
-        ],
-        "severity": 3
-      },
-      {
-        "type": "EMAIL",
-        "value": "eclarke@company.org",
-        "span": [
-          29,
-          48
-        ],
-        "severity": 3
-      },
-      {
-        "type": "LOCATION",
-        "value": "Berlin, Germany",
-        "span": [
-          63,
-          78
-        ],
-        "severity": 1
-      }
-    ],
-    "risk": 7
-  },
-  {
-    "text": "Hello, I am Sarah Johnson and I would like to introduce myself.",
-    "entities": [
-      {
-        "type": "NAME",
-        "value": "Sarah Johnson",
-        "span": [
-          12,
+          15,
           25
         ],
-        "severity": 3
-      }
-    ],
-    "risk": 3
-  },
-  {
-    "text": "Hello, I am Amara Nwosu and I would like to introduce myself.",
-    "entities": [
-      {
-        "type": "NAME",
-        "value": "Amara Nwosu",
-        "span": [
-          12,
-          23
-        ],
-        "severity": 3
-      }
-    ],
-    "risk": 3
-  },
-  {
-    "text": "Hello, I am John Perera and I would like to introduce myself.",
-    "entities": [
-      {
-        "type": "NAME",
-        "value": "John Perera",
-        "span": [
-          12,
-          23
-        ],
-        "severity": 3
-      }
-    ],
-    "risk": 3
-  },
-  {
-    "text": "You can send your application to john.perera@gmail.com.",
-    "entities": [
-      {
-        "type": "EMAIL",
-        "value": "john.perera@gmail.com",
-        "span": [
-          33,
-          54
-        ],
-        "severity": 3
-      }
-    ],
-    "risk": 3
-  },
-  {
-    "text": "You can send your application to eclarke@company.org.",
-    "entities": [
-      {
-        "type": "EMAIL",
-        "value": "eclarke@company.org",
-        "span": [
-          33,
-          52
-        ],
-        "severity": 3
-      }
-    ],
-    "risk": 3
-  },
-  {
-    "text": "You can send your application to sarah.j@outlook.com.",
-    "entities": [
-      {
-        "type": "EMAIL",
-        "value": "sarah.j@outlook.com",
-        "span": [
-          33,
-          52
-        ],
-        "severity": 3
-      }
-    ],
-    "risk": 3
-  },
-  {
-    "text": "The event will be held in New York, USA this year.",
-    "entities": [
-      {
-        "type": "LOCATION",
-        "value": "New York, USA",
-        "span": [
-          26,
-          39
-        ],
         "severity": 1
       }
     ],
-    "risk": 1
+    "risk": 1.2079441541679836
   },
   {
-    "text": "The event will be held in Toronto, Canada this year.",
-    "entities": [
-      {
-        "type": "LOCATION",
-        "value": "Toronto, Canada",
-        "span": [
-          26,
-          41
-        ],
-        "severity": 1
-      }
-    ],
-    "risk": 1
-  },
-  {
-    "text": "The event will be held in Sydney, Australia this year.",
-    "entities": [
-      {
-        "type": "LOCATION",
-        "value": "Sydney, Australia",
-        "span": [
-          26,
-          43
-        ],
-        "severity": 1
-      }
-    ],
-    "risk": 1
-  },
-  {
-    "text": "Hi, I'm John Perera. Contact me at eclarke@company.org.",
+    "text": "Hi, I'm Emily Clarke. Contact me at amara.nwosu@yahoo.com.",
     "entities": [
       {
         "type": "NAME",
-        "value": "John Perera",
-        "span": [
-          8,
-          19
-        ],
-        "severity": 3
-      },
-      {
-        "type": "EMAIL",
-        "value": "eclarke@company.org",
-        "span": [
-          35,
-          54
-        ],
-        "severity": 3
-      }
-    ],
-    "risk": 6
-  },
-  {
-    "text": "Hi, I'm Amara Nwosu. Contact me at sarah.j@outlook.com.",
-    "entities": [
-      {
-        "type": "NAME",
-        "value": "Amara Nwosu",
-        "span": [
-          8,
-          19
-        ],
-        "severity": 3
-      },
-      {
-        "type": "EMAIL",
-        "value": "sarah.j@outlook.com",
-        "span": [
-          35,
-          54
-        ],
-        "severity": 3
-      }
-    ],
-    "risk": 6
-  },
-  {
-    "text": "Hi, I'm Michael Chen. Contact me at amara.nwosu@yahoo.com.",
-    "entities": [
-      {
-        "type": "NAME",
-        "value": "Michael Chen",
+        "value": "Emily Clarke",
         "span": [
           8,
           20
         ],
-        "severity": 3
+        "severity": 1
       },
       {
         "type": "EMAIL",
@@ -300,9 +63,57 @@
           36,
           57
         ],
-        "severity": 3
+        "severity": 2
       }
     ],
-    "risk": 6
+    "risk": 3.623832462503951
+  },
+  {
+    "text": "Hi, I'm Amara Nwosu. Contact me at s.miller@research.institute.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "Amara Nwosu",
+        "span": [
+          8,
+          19
+        ],
+        "severity": 1
+      },
+      {
+        "type": "EMAIL",
+        "value": "s.miller@research.institute",
+        "span": [
+          35,
+          62
+        ],
+        "severity": 2
+      }
+    ],
+    "risk": 3.623832462503951
+  },
+  {
+    "text": "Hi, I'm James Wilson. Contact me at d.lee@university.edu.",
+    "entities": [
+      {
+        "type": "NAME",
+        "value": "James Wilson",
+        "span": [
+          8,
+          20
+        ],
+        "severity": 1
+      },
+      {
+        "type": "EMAIL",
+        "value": "d.lee@university.edu",
+        "span": [
+          36,
+          56
+        ],
+        "severity": 2
+      }
+    ],
+    "risk": 3.623832462503951
   }
 ]

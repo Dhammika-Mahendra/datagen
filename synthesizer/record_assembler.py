@@ -16,6 +16,7 @@ The output format matches the NER training schema:
 """
 
 import json
+import math
 import os
 
 from synthesizer.entity_sampler import sample_entities
@@ -36,7 +37,6 @@ def assemble_record(template: dict, pii_values: dict[str, list[str]]) -> dict:
     """
     # Step 1: Sample PII values per entity type the template requires
     entity_values = sample_entities(template["entities"], pii_values)
-  
 
     # Step 2: Fill placeholders and get spans
     array = []
@@ -63,10 +63,19 @@ def get_severity(entity_type: str) -> int:
     return severity.get(entity_type, 0)  # Default to 0 if not found
 
 #calculate total severity
-def calculate_total_severity(entities: list[dict]) -> int:
-    total_severity = 0
-    for entity in entities:
-        entity_type = entity["type"]
-        severity_value = get_severity(entity_type)
-        total_severity += severity_value
-    return total_severity
+def calculate_total_severity(entities: list[dict]) -> float:
+  type_counts: dict[str, int] = {}
+  for entity in entities:
+    entity_type = entity.get("type")
+    if not entity_type:
+      continue
+    type_counts[entity_type] = type_counts.get(entity_type, 0) + 1
+
+  alpha = 0.3
+  total_severity = 0.0
+  for entity_type, count in type_counts.items():
+    weight = get_severity(entity_type)
+    effective_weight = weight * (1 + alpha * math.log(1 + count))
+    total_severity += effective_weight
+
+  return total_severity

@@ -1,5 +1,11 @@
 {
-    "EMAIL":3,
-    "LOCATION":1,
-    "NAME":3
+    "IDNO": 3,
+    "BANKACCNO": 3,
+    "PHONENO": 2,
+    "ADDRESS": 2,
+    "EMAIL": 2,
+    "LOCATION": 2,
+    "NAME": 1,
+    "USERNAME": 1,
+    "ORGANIZATION": 1
 }

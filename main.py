@@ -61,9 +61,6 @@ def generate_dataset(seed: int | None = None) -> list[dict]:
     # Load data assets from local files
     templates = load_templates()
     pii_values = load_pii_values()
-    #print all pii_values
-    for entity_type, values in pii_values.items():
-        print(f"[i] {entity_type}: {', '.join(values)}")
 
     print(f"[i] Loaded {len(templates)} templates and {sum(len(v) for v in pii_values.values())} PII values")
     print(f"[i] Generating {get_template_count()} records...")

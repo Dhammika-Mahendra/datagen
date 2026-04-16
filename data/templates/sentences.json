@@ -1,26 +1,9 @@
 [
   {
-    "id": "name_only_1",
-    "template": "I'm {NAME}. My email is {EMAIL} and I live in {LOCATION}.",
-    "entities": ["NAME", "EMAIL", "LOCATION"]
+    "template": "My friends are {NAME} and {NAME}.",
+    "entities": ["NAME", "NAME"]
   },
   {
-    "id": "name_only_2",
-    "template": "Hello, I am {NAME} and I would like to introduce myself.",
-    "entities": ["NAME"]
-  },
-  {
-    "id": "email_only_2",
-    "template": "You can send your application to {EMAIL}.",
-    "entities": ["EMAIL"]
-  },
-  {
-    "id": "location_only_2",
-    "template": "The event will be held in {LOCATION} this year.",
-    "entities": ["LOCATION"]
-  },
-  {
-    "id": "name_email_1",
     "template": "Hi, I'm {NAME}. Contact me at {EMAIL}.",
     "entities": ["NAME", "EMAIL"]
   }
