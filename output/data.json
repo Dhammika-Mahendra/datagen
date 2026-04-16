@@ -1,119 +1,407 @@
 [
   {
-    "text": "My friends are Amara Nwosu and {NAME}.",
-    "entities": [
+    "Text": "Hello, I am James Wilson and I would like to introduce myself.",
+    "Entities": [
       {
-        "type": "NAME",
-        "value": "Amara Nwosu",
-        "span": [
+        "Type": "NAME",
+        "Value": "James Wilson",
+        "Span": [
+          12,
+          24
+        ],
+        "Severity": 1
+      }
+    ],
+    "Risk": 1.2079441541679836
+  },
+  {
+    "Text": "Hello, I am Emily Clarke and I would like to introduce myself.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Emily Clarke",
+        "Span": [
+          12,
+          24
+        ],
+        "Severity": 1
+      }
+    ],
+    "Risk": 1.2079441541679836
+  },
+  {
+    "Text": "Hello, I am Liam Davis and I would like to introduce myself.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Liam Davis",
+        "Span": [
+          12,
+          22
+        ],
+        "Severity": 1
+      }
+    ],
+    "Risk": 1.2079441541679836
+  },
+  {
+    "Text": "My friends are Sarah Johnson and Olivia Brown.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Sarah Johnson",
+        "Span": [
+          15,
+          28
+        ],
+        "Severity": 1
+      },
+      {
+        "Type": "NAME",
+        "Value": "Olivia Brown",
+        "Span": [
+          33,
+          45
+        ],
+        "Severity": 1
+      }
+    ],
+    "Risk": 1.329583686600433
+  },
+  {
+    "Text": "My friends are Amara Nwosu and John Perera.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Amara Nwosu",
+        "Span": [
           15,
           26
         ],
-        "severity": 1
+        "Severity": 1
+      },
+      {
+        "Type": "NAME",
+        "Value": "John Perera",
+        "Span": [
+          31,
+          42
+        ],
+        "Severity": 1
       }
     ],
-    "risk": 1.2079441541679836
+    "Risk": 1.329583686600433
   },
   {
-    "text": "My friends are Emily Clarke and {NAME}.",
-    "entities": [
+    "Text": "My friends are James Wilson and David Lee.",
+    "Entities": [
       {
-        "type": "NAME",
-        "value": "Emily Clarke",
-        "span": [
+        "Type": "NAME",
+        "Value": "James Wilson",
+        "Span": [
           15,
           27
         ],
-        "severity": 1
-      }
-    ],
-    "risk": 1.2079441541679836
-  },
-  {
-    "text": "My friends are Liam Davis and {NAME}.",
-    "entities": [
-      {
-        "type": "NAME",
-        "value": "Liam Davis",
-        "span": [
-          15,
-          25
-        ],
-        "severity": 1
-      }
-    ],
-    "risk": 1.2079441541679836
-  },
-  {
-    "text": "Hi, I'm Emily Clarke. Contact me at amara.nwosu@yahoo.com.",
-    "entities": [
-      {
-        "type": "NAME",
-        "value": "Emily Clarke",
-        "span": [
-          8,
-          20
-        ],
-        "severity": 1
+        "Severity": 1
       },
       {
-        "type": "EMAIL",
-        "value": "amara.nwosu@yahoo.com",
-        "span": [
-          36,
-          57
+        "Type": "NAME",
+        "Value": "David Lee",
+        "Span": [
+          32,
+          41
         ],
-        "severity": 2
+        "Severity": 1
       }
     ],
-    "risk": 3.623832462503951
+    "Risk": 1.329583686600433
   },
   {
-    "text": "Hi, I'm Amara Nwosu. Contact me at s.miller@research.institute.",
-    "entities": [
+    "Text": "You can send your application to amara.nwosu@yahoo.com.",
+    "Entities": [
       {
-        "type": "NAME",
-        "value": "Amara Nwosu",
-        "span": [
-          8,
-          19
+        "Type": "EMAIL",
+        "Value": "amara.nwosu@yahoo.com",
+        "Span": [
+          33,
+          54
         ],
-        "severity": 1
+        "Severity": 2
+      }
+    ],
+    "Risk": 2.4158883083359672
+  },
+  {
+    "Text": "You can send your application to d.lee@university.edu.",
+    "Entities": [
+      {
+        "Type": "EMAIL",
+        "Value": "d.lee@university.edu",
+        "Span": [
+          33,
+          53
+        ],
+        "Severity": 2
+      }
+    ],
+    "Risk": 2.4158883083359672
+  },
+  {
+    "Text": "You can send your application to sarah.j@outlook.com.",
+    "Entities": [
+      {
+        "Type": "EMAIL",
+        "Value": "sarah.j@outlook.com",
+        "Span": [
+          33,
+          52
+        ],
+        "Severity": 2
+      }
+    ],
+    "Risk": 2.4158883083359672
+  },
+  {
+    "Text": "I'm Amara Nwosu. My email is r.wilson@foundation.org and I live in New York, USA.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Amara Nwosu",
+        "Span": [
+          4,
+          15
+        ],
+        "Severity": 1
       },
       {
-        "type": "EMAIL",
-        "value": "s.miller@research.institute",
-        "span": [
-          35,
+        "Type": "EMAIL",
+        "Value": "r.wilson@foundation.org",
+        "Span": [
+          29,
+          52
+        ],
+        "Severity": 2
+      },
+      {
+        "Type": "LOCATION",
+        "Value": "New York, USA",
+        "Span": [
+          67,
+          80
+        ],
+        "Severity": 2
+      }
+    ],
+    "Risk": 6.039720770839918
+  },
+  {
+    "Text": "I'm Sarah Johnson. My email is sarah.j@outlook.com and I live in Sydney, Australia.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Sarah Johnson",
+        "Span": [
+          4,
+          17
+        ],
+        "Severity": 1
+      },
+      {
+        "Type": "EMAIL",
+        "Value": "sarah.j@outlook.com",
+        "Span": [
+          31,
+          50
+        ],
+        "Severity": 2
+      },
+      {
+        "Type": "LOCATION",
+        "Value": "Sydney, Australia",
+        "Span": [
+          65,
+          82
+        ],
+        "Severity": 2
+      }
+    ],
+    "Risk": 6.039720770839918
+  },
+  {
+    "Text": "I'm John Perera. My email is eclarke@company.org and I live in Mumbai, India.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "John Perera",
+        "Span": [
+          4,
+          15
+        ],
+        "Severity": 1
+      },
+      {
+        "Type": "EMAIL",
+        "Value": "eclarke@company.org",
+        "Span": [
+          29,
+          48
+        ],
+        "Severity": 2
+      },
+      {
+        "Type": "LOCATION",
+        "Value": "Mumbai, India",
+        "Span": [
+          63,
+          76
+        ],
+        "Severity": 2
+      }
+    ],
+    "Risk": 6.039720770839918
+  },
+  {
+    "Text": "The event will be held in Sydney, Australia this year.",
+    "Entities": [
+      {
+        "Type": "LOCATION",
+        "Value": "Sydney, Australia",
+        "Span": [
+          26,
+          43
+        ],
+        "Severity": 2
+      }
+    ],
+    "Risk": 2.4158883083359672
+  },
+  {
+    "Text": "The event will be held in Mumbai, India this year.",
+    "Entities": [
+      {
+        "Type": "LOCATION",
+        "Value": "Mumbai, India",
+        "Span": [
+          26,
+          39
+        ],
+        "Severity": 2
+      }
+    ],
+    "Risk": 2.4158883083359672
+  },
+  {
+    "Text": "The event will be held in Toronto, Canada this year.",
+    "Entities": [
+      {
+        "Type": "LOCATION",
+        "Value": "Toronto, Canada",
+        "Span": [
+          26,
+          41
+        ],
+        "Severity": 2
+      }
+    ],
+    "Risk": 2.4158883083359672
+  },
+  {
+    "Text": "I want to go to Mumbai, India, New York, USA and Sydney, Australia for my vacation.",
+    "Entities": [
+      {
+        "Type": "LOCATION",
+        "Value": "Mumbai, India",
+        "Span": [
+          16,
+          29
+        ],
+        "Severity": 2
+      },
+      {
+        "Type": "LOCATION",
+        "Value": "New York, USA",
+        "Span": [
+          31,
+          44
+        ],
+        "Severity": 2
+      },
+      {
+        "Type": "LOCATION",
+        "Value": "Sydney, Australia",
+        "Span": [
+          49,
+          66
+        ],
+        "Severity": 2
+      }
+    ],
+    "Risk": 2.8317766166719345
+  },
+  {
+    "Text": "I want to go to Berlin, Germany, Toronto, Canada and Paris, France for my vacation.",
+    "Entities": [
+      {
+        "Type": "LOCATION",
+        "Value": "Berlin, Germany",
+        "Span": [
+          16,
+          31
+        ],
+        "Severity": 2
+      },
+      {
+        "Type": "LOCATION",
+        "Value": "Toronto, Canada",
+        "Span": [
+          33,
+          48
+        ],
+        "Severity": 2
+      },
+      {
+        "Type": "LOCATION",
+        "Value": "Paris, France",
+        "Span": [
+          53,
+          66
+        ],
+        "Severity": 2
+      }
+    ],
+    "Risk": 2.8317766166719345
+  },
+  {
+    "Text": "I want to go to Tokyo, Japan, São Paulo, Brazil and London, UK for my vacation.",
+    "Entities": [
+      {
+        "Type": "LOCATION",
+        "Value": "Tokyo, Japan",
+        "Span": [
+          16,
+          28
+        ],
+        "Severity": 2
+      },
+      {
+        "Type": "LOCATION",
+        "Value": "São Paulo, Brazil",
+        "Span": [
+          30,
+          47
+        ],
+        "Severity": 2
+      },
+      {
+        "Type": "LOCATION",
+        "Value": "London, UK",
+        "Span": [
+          52,
           62
         ],
-        "severity": 2
+        "Severity": 2
       }
     ],
-    "risk": 3.623832462503951
-  },
-  {
-    "text": "Hi, I'm James Wilson. Contact me at d.lee@university.edu.",
-    "entities": [
-      {
-        "type": "NAME",
-        "value": "James Wilson",
-        "span": [
-          8,
-          20
-        ],
-        "severity": 1
-      },
-      {
-        "type": "EMAIL",
-        "value": "d.lee@university.edu",
-        "span": [
-          36,
-          56
-        ],
-        "severity": 2
-      }
-    ],
-    "risk": 3.623832462503951
+    "Risk": 2.8317766166719345
   }
 ]

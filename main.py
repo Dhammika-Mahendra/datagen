@@ -43,16 +43,6 @@ def parse_args() -> argparse.Namespace:
 
 
 def generate_dataset(seed: int | None = None) -> list[dict]:
-    """
-    Core generation loop.
-
-    Args:
-        count: Number of training records to synthesize.
-        seed:  Optional random seed for reproducible output.
-
-    Returns:
-        List of assembled record dicts.
-    """
 
     if seed is not None:
         random.seed(seed)

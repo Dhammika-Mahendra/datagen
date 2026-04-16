@@ -41,8 +41,8 @@ def assemble_record(template: dict, pii_values: dict[str, list[str]]) -> dict:
     # Step 2: Fill placeholders and get spans
     array = []
     for entity in entity_values:
-      text, entity_spans = build_text_with_spans(template["template"], entity)
-      array.append({"text": text, "entities": entity_spans, "risk" : calculate_total_severity(entity_spans)})
+      entity_spans = build_text_with_spans(template["template"], entity)
+      array.append({"Text": entity_spans["Text"], "Entities": entity_spans["Entities"], "Risk" : calculate_total_severity(entity_spans["Entities"])})
 
     return array
 
@@ -66,7 +66,7 @@ def get_severity(entity_type: str) -> int:
 def calculate_total_severity(entities: list[dict]) -> float:
   type_counts: dict[str, int] = {}
   for entity in entities:
-    entity_type = entity.get("type")
+    entity_type = entity.get("Type")
     if not entity_type:
       continue
     type_counts[entity_type] = type_counts.get(entity_type, 0) + 1

@@ -1,72 +1,92 @@
-"""
-text_builder.py
----------------
-Fills a sentence template with sampled PII values and calculates the
-exact character span [start, end] of each inserted entity in the final text.
 
-Span convention: start is inclusive, end is exclusive (Python slice style).
-Example: text[start:end] == entity_value
-"""
-import json
 import os
+import json
 
-def build_text_with_spans(template: str, entity_values: dict[str, str]) -> tuple[str, list[dict]]:
+def build_text_with_spans(template: str, assigned_values: list[dict]) -> dict:
     """
-    Replace each {ENTITY_TYPE} placeholder in the template with its sampled value,
-    then record the character span of every replaced entity.
-
+    Assigns PII values to a sentence template and marks their positions.
+    
     Args:
-        template:      Raw template string, e.g. "Hi, I'm {NAME}. Email: {EMAIL}."
-        entity_values: Mapping of entity type to its chosen value.
-
+        template: Template string with placeholders like {NAME}, {EMAIL}
+        assigned_values: List of dicts mapping entity types to values
+    
     Returns:
-        A tuple of:
-          - text (str): The fully rendered sentence.
-          - spans (list[dict]): Each entry has keys 'type', 'value', 'span'.
+        Dict with filled text and entity metadata including spans
     """
-    text = template
-    spans = []
-
-    # Process placeholders in the order they appear left-to-right in the template.
-    # We search for the next placeholder, replace it, and advance through the string.
-    for entity_type, value in _ordered_placeholders(template, entity_values):
-        placeholder = f"{{{entity_type}}}"
-
-        # Find the placeholder in the *current* (partially filled) text
-        start = text.find(placeholder)
-        if start == -1:
-            # Should not happen if template and entity_values are consistent
-            continue
-
-        # Replace only the first occurrence so repeated types don't collide
-        text = text[:start] + value + text[start + len(placeholder):]
-
-        end = start + len(value)
-        spans.append({
-            "type":  entity_type,
-            "value": value,
-            "span":  [start, end],
-            "severity": get_severity(entity_type)  # Add severity to the span dict
+    import re
+    
+    # Count occurrences of each entity type in template order
+    entities_metadata = []
+    
+    # Group assigned values by type, maintaining order
+    values_by_type = {}
+    for item in assigned_values:
+        for key, value in item.items():
+            if key not in values_by_type:
+                values_by_type[key] = []
+            values_by_type[key].append(value)
+    
+    # Track usage index per type
+    usage_index = {}
+    
+    # Find all placeholders in order of appearance
+    placeholder_pattern = re.compile(r'\{(\w+)\}')
+    
+    # Build the final text by replacing placeholders one by one
+    offset = 0  # Track character offset as we replace
+    
+    for match in placeholder_pattern.finditer(template):
+        entity_type = match.group(1)
+        
+        # Get the next value for this entity type
+        if entity_type not in usage_index:
+            usage_index[entity_type] = 0
+        
+        idx = usage_index[entity_type]
+        if entity_type in values_by_type and idx < len(values_by_type[entity_type]):
+            value = values_by_type[entity_type][idx]
+        else:
+            value = match.group(0)  # Keep original placeholder if no value
+        
+        usage_index[entity_type] += 1
+        
+        # Calculate position in the growing result string
+        placeholder = match.group(0)  # e.g., {NAME}
+        start_in_original = match.start()
+        
+        # Adjusted start considering previous replacements
+        adjusted_start = start_in_original + offset
+        adjusted_end = adjusted_start + len(value)
+        
+        entities_metadata.append({
+            "Type": entity_type,
+            "Value": value,
+            "Span": [adjusted_start, adjusted_end],
+            "Severity": get_severity(entity_type)
         })
+        
+        # Update offset: difference between replacement length and placeholder length
+        offset += len(value) - len(placeholder)
+    
+    # Now build the actual replaced text
+    usage_index_reset = {}
+    def replace_match(m):
+        etype = m.group(1)
+        if etype not in usage_index_reset:
+            usage_index_reset[etype] = 0
+        idx = usage_index_reset[etype]
+        usage_index_reset[etype] += 1
+        if etype in values_by_type and idx < len(values_by_type[etype]):
+            return values_by_type[etype][idx]
+        return m.group(0)
+    
+    final_text = placeholder_pattern.sub(replace_match, template)
+    
+    return {
+        "Text": final_text,
+        "Entities": entities_metadata
+    }
 
-    return text, spans
-
-
-def _ordered_placeholders(template: str, entity_values: dict[str, str]) -> list[tuple[str, str]]:
-    """
-    Return (entity_type, value) pairs sorted by the position of their placeholder
-    in the template string, so replacements are applied left-to-right.
-    """
-    positions = []
-    for entity_type in entity_values:
-        placeholder = f"{{{entity_type}}}"
-        idx = template.find(placeholder)
-        if idx != -1:
-            positions.append((idx, entity_type, entity_values[entity_type]))
-
-    # Sort by position so we fill left-to-right
-    positions.sort(key=lambda x: x[0])
-    return [(entity_type, value) for _, entity_type, value in positions]
 
 #severity.json file loading
 def load_severity() -> dict[str, int]:
