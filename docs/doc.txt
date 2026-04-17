@@ -18,13 +18,14 @@ Combination Sensitivity (Risk grows non-linearly with combinations)
 4 - Name + IDNo , Name + BankAccNo
 5 - Name + Phone + Address , Name + IDNo + BankAccNo
 
-Entity Density 
+Entity Density
+Entity type repetetivness 
 
 Author relationshiop - related/notrelated
----------------------------------
-Personal
-Mixed
-Public
+
+Public/Private
+
+Linkability Patterns (How each entity is linked)
 
 =================================================================
                     Extra
@@ -32,11 +33,9 @@ Public
 
 Phrase Variations (My phone number is ... / You can conatact me at ...)
 Position & Distribution of entity within sentense 
-    - Startt, Mid, End
+    - Start, Mid, End
     - Clusterd/ Scattered
-Entity type repetetivness 
-Linkability Patterns (How each entity is linked)
-Template Complexity Levels (sentense,paragraph)
+Template Complexity Levels (sentense, paragraph)
 Domain Variation
 
 

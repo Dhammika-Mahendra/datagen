@@ -1,11 +1,11 @@
 {
-    "IDNO": 3,
-    "BANKACCNO": 3,
-    "PHONENO": 2,
-    "ADDRESS": 2,
-    "EMAIL": 2,
-    "LOCATION": 2,
-    "NAME": 1,
-    "USERNAME": 1,
-    "ORGANIZATION": 1
+    "IDNO": 0.9,
+    "BANKACCNO": 0.9,
+    "PHONENO": 0.7,
+    "ADDRESS": 0.5,
+    "EMAIL": 0.6,
+    "LOCATION": 0.3,
+    "NAME": 0.2,
+    "USERNAME": 0.2,
+    "ORGANIZATION": 0.1
 }

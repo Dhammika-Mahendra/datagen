@@ -3,16 +3,7 @@ import os
 import json
 
 def build_text_with_spans(template: str, assigned_values: list[dict]) -> dict:
-    """
-    Assigns PII values to a sentence template and marks their positions.
-    
-    Args:
-        template: Template string with placeholders like {NAME}, {EMAIL}
-        assigned_values: List of dicts mapping entity types to values
-    
-    Returns:
-        Dict with filled text and entity metadata including spans
-    """
+
     import re
     
     # Count occurrences of each entity type in template order
@@ -34,7 +25,8 @@ def build_text_with_spans(template: str, assigned_values: list[dict]) -> dict:
     
     # Build the final text by replacing placeholders one by one
     offset = 0  # Track character offset as we replace
-    
+    count=0
+
     for match in placeholder_pattern.finditer(template):
         entity_type = match.group(1)
         
@@ -62,12 +54,15 @@ def build_text_with_spans(template: str, assigned_values: list[dict]) -> dict:
             "Type": entity_type,
             "Value": value,
             "Span": [adjusted_start, adjusted_end],
-            "Severity": get_severity(entity_type)
+            "Severity": round(get_severity(entity_type)*assigned_values[count].get("Expose", 0), 2), 
+            "Expose": assigned_values[count].get("Expose", 0)
         })
-        
+        count+=1
         # Update offset: difference between replacement length and placeholder length
         offset += len(value) - len(placeholder)
     
+    print("...")
+
     # Now build the actual replaced text
     usage_index_reset = {}
     def replace_match(m):

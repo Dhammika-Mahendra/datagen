@@ -36,7 +36,7 @@ def assemble_record(template: dict, pii_values: dict[str, list[str]]) -> dict:
         A dict with 'text' and 'entities' keys ready for JSON serialisation.
     """
     # Step 1: Sample PII values per entity type the template requires
-    entity_values = sample_entities(template["entities"], pii_values)
+    entity_values = sample_entities(template["entities"], template["expose"], pii_values)
 
     # Step 2: Fill placeholders and get spans
     array = []
@@ -64,18 +64,25 @@ def get_severity(entity_type: str) -> int:
 
 #calculate total severity
 def calculate_total_severity(entities: list[dict]) -> float:
-  type_counts: dict[str, int] = {}
+  category_counts: dict[str, int] = {}
   for entity in entities:
-    entity_type = entity.get("Type")
-    if not entity_type:
-      continue
-    type_counts[entity_type] = type_counts.get(entity_type, 0) + 1
+    entity_type = entity.get("Type", "UNKNOWN")
+    expose = entity.get("Expose", False)
+    category_key = f"{entity_type}|{expose}"
+    category_counts[category_key] = category_counts.get(category_key, 0) + 1
 
+  #finding severity for each category and calculating total severity
   alpha = 0.3
+  base_score= 1.0
   total_severity = 0.0
-  for entity_type, count in type_counts.items():
+  for category_key, count in category_counts.items():
+    entity_type, expose_str = category_key.split("|")
+    expose = float(expose_str)
     weight = get_severity(entity_type)
-    effective_weight = weight * (1 + alpha * math.log(1 + count))
-    total_severity += effective_weight
+    effective_weight = weight * expose * (1 + alpha * math.log(1 + count))
+    base_score *= (1-effective_weight)
 
+  total_severity = 1-base_score
+  total_severity=round(total_severity, 2)
+    
   return total_severity

@@ -1,27 +1,17 @@
 [
   {
     "template": "Hello, I am {NAME} and I would like to introduce myself.",
-    "entities": ["NAME"]
+    "entities": ["NAME"],
+    "expose":[0.9]
   },
   {
     "template": "My friends are {NAME} and {NAME}.",
-    "entities": ["NAME", "NAME"]
+    "entities": ["NAME", "NAME"],
+    "expose":[0.9, 0.3]
   },
   {
-    "template": "You can send your application to {EMAIL}.",
-    "entities": ["EMAIL"]
-  },
-    {
     "template": "I'm {NAME}. My email is {EMAIL} and I live in {LOCATION}.",
-    "entities": ["NAME", "EMAIL", "LOCATION"]
-  },
-  {
-    "template": "The event will be held in {LOCATION} this year.",
-    "entities": ["LOCATION"]
-  },
-  {
-    "template": "I want to go to {LOCATION}, {LOCATION} and {LOCATION} for my vacation.",
-    "entities": ["LOCATION", "LOCATION", "LOCATION"]
+    "entities": ["NAME", "EMAIL", "LOCATION"],
+    "expose":[0.9, 0.9, 0.3]
   }
-
 ]
