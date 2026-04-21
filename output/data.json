@@ -1,5 +1,21 @@
 [
   {
+    "Text": "Hello, I am Michael Chen and I would like to introduce myself.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Michael Chen",
+        "Span": [
+          12,
+          24
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      }
+    ],
+    "Risk": 0.1
+  },
+  {
     "Text": "Hello, I am Emily Clarke and I would like to introduce myself.",
     "Entities": [
       {
@@ -9,150 +25,186 @@
           12,
           24
         ],
-        "Severity": 0.18,
-        "Expose": 0.9
+        "Severity": 0.2,
+        "Expose": 1.0
       }
     ],
-    "Risk": 0.22
+    "Risk": 0.1
   },
   {
-    "Text": "Hello, I am James Wilson and I would like to introduce myself.",
+    "Text": "My friends are Amara Nwosu and Sophia Martinez.",
     "Entities": [
       {
         "Type": "NAME",
-        "Value": "James Wilson",
+        "Value": "Amara Nwosu",
         "Span": [
-          12,
-          24
+          15,
+          26
         ],
-        "Severity": 0.18,
-        "Expose": 0.9
-      }
-    ],
-    "Risk": 0.22
-  },
-  {
-    "Text": "My friends are Sophia Martinez and John Perera.",
-    "Entities": [
+        "Severity": 0.2,
+        "Expose": 1.0
+      },
       {
         "Type": "NAME",
         "Value": "Sophia Martinez",
         "Span": [
-          15,
-          30
+          31,
+          46
         ],
-        "Severity": 0.18,
-        "Expose": 0.9
+        "Severity": 0.2,
+        "Expose": 1.0
+      }
+    ],
+    "Risk": 0.15
+  },
+  {
+    "Text": "My friends are Sarah Johnson and Liam Davis.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Sarah Johnson",
+        "Span": [
+          15,
+          28
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
       },
       {
         "Type": "NAME",
-        "Value": "John Perera",
+        "Value": "Liam Davis",
         "Span": [
-          35,
+          33,
+          43
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      }
+    ],
+    "Risk": 0.15
+  },
+  {
+    "Text": "Amara Nwosu works as an employee for David Lee.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Amara Nwosu",
+        "Span": [
+          0,
+          11
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      },
+      {
+        "Type": "NAME",
+        "Value": "David Lee",
+        "Span": [
+          37,
           46
         ],
         "Severity": 0.06,
         "Expose": 0.3
       }
     ],
-    "Risk": 0.27
+    "Risk": 0.12
   },
   {
-    "Text": "My friends are Michael Chen and David Lee.",
+    "Text": "John Perera works as an employee for Sophia Martinez.",
     "Entities": [
       {
         "Type": "NAME",
-        "Value": "Michael Chen",
+        "Value": "John Perera",
         "Span": [
-          15,
-          27
+          0,
+          11
         ],
-        "Severity": 0.18,
-        "Expose": 0.9
+        "Severity": 0.2,
+        "Expose": 1.0
       },
       {
         "Type": "NAME",
-        "Value": "David Lee",
+        "Value": "Sophia Martinez",
         "Span": [
-          32,
-          41
+          37,
+          52
         ],
         "Severity": 0.06,
         "Expose": 0.3
       }
     ],
-    "Risk": 0.27
+    "Risk": 0.12
   },
   {
-    "Text": "I'm Sophia Martinez. My email is john.perera@gmail.com and I live in Cape Town, South Africa.",
+    "Text": "Olivia Brown sent an email to d.lee@university.edu which belongs to Sarah Johnson.",
     "Entities": [
       {
         "Type": "NAME",
-        "Value": "Sophia Martinez",
+        "Value": "Olivia Brown",
         "Span": [
-          4,
-          19
+          0,
+          12
         ],
-        "Severity": 0.18,
-        "Expose": 0.9
+        "Severity": 0.2,
+        "Expose": 1.0
       },
       {
         "Type": "EMAIL",
-        "Value": "john.perera@gmail.com",
-        "Span": [
-          33,
-          54
-        ],
-        "Severity": 0.54,
-        "Expose": 0.9
-      },
-      {
-        "Type": "LOCATION",
-        "Value": "Cape Town, South Africa",
-        "Span": [
-          69,
-          92
-        ],
-        "Severity": 0.09,
-        "Expose": 0.3
-      }
-    ],
-    "Risk": 0.76
-  },
-  {
-    "Text": "I'm Michael Chen. My email is m.chen@techcorp.io and I live in Tokyo, Japan.",
-    "Entities": [
-      {
-        "Type": "NAME",
-        "Value": "Michael Chen",
-        "Span": [
-          4,
-          16
-        ],
-        "Severity": 0.18,
-        "Expose": 0.9
-      },
-      {
-        "Type": "EMAIL",
-        "Value": "m.chen@techcorp.io",
+        "Value": "d.lee@university.edu",
         "Span": [
           30,
-          48
+          50
         ],
-        "Severity": 0.54,
-        "Expose": 0.9
+        "Severity": 0.6,
+        "Expose": 1.0
       },
       {
-        "Type": "LOCATION",
-        "Value": "Tokyo, Japan",
+        "Type": "NAME",
+        "Value": "Sarah Johnson",
         "Span": [
-          63,
-          75
+          68,
+          81
         ],
-        "Severity": 0.09,
+        "Severity": 0.06,
         "Expose": 0.3
       }
     ],
-    "Risk": 0.76
+    "Risk": 0.39
+  },
+  {
+    "Text": "Amara Nwosu sent an email to eclarke@company.org which belongs to John Perera.",
+    "Entities": [
+      {
+        "Type": "NAME",  
+        "Value": "Amara Nwosu",
+        "Span": [
+          0,
+          11
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      },
+      {
+        "Type": "EMAIL",
+        "Value": "eclarke@company.org",
+        "Span": [
+          29,
+          48
+        ],
+        "Severity": 0.6,
+        "Expose": 1.0
+      },
+      {
+        "Type": "NAME",
+        "Value": "John Perera",
+        "Span": [
+          66,
+          77
+        ],
+        "Severity": 0.06,
+        "Expose": 0.3
+      }
+    ],
+    "Risk": 0.39
   }
 ]

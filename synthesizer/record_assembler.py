@@ -64,25 +64,30 @@ def get_severity(entity_type: str) -> int:
 
 #calculate total severity
 def calculate_total_severity(entities: list[dict]) -> float:
-  category_counts: dict[str, int] = {}
+  
+  counts: dict[str, dict[str, int]] = {}
   for entity in entities:
-    entity_type = entity.get("Type", "UNKNOWN")
-    expose = entity.get("Expose", False)
-    category_key = f"{entity_type}|{expose}"
-    category_counts[category_key] = category_counts.get(category_key, 0) + 1
+    entity_type = entity.get("Type") or entity.get("Type")
+    expose = entity.get("Expose") or entity.get("Expose")
+    if entity_type is None or expose is None:
+      continue
 
-  #finding severity for each category and calculating total severity
-  alpha = 0.3
-  base_score= 1.0
-  total_severity = 0.0
-  for category_key, count in category_counts.items():
-    entity_type, expose_str = category_key.split("|")
-    expose = float(expose_str)
+    if entity_type not in counts:
+      counts[entity_type] = {}
+    counts[entity_type][expose] = counts[entity_type].get(expose, 0) + 1
+  
+  alpha = 0.7
+  total_severity = 1.0
+
+  #print key valeu pairs in counts
+  for entity_type, expose_counts in counts.items():
+    entity_severity = 0.0 
+    for entity, entity_count in expose_counts.items():
+      entity_severity += float(entity) * entity_count
     weight = get_severity(entity_type)
-    effective_weight = weight * expose * (1 + alpha * math.log(1 + count))
-    base_score *= (1-effective_weight)
+    effective_weight = weight * (1 - math.exp(-alpha * entity_severity))
+    total_severity *= (1 - effective_weight)
+ 
+  total_severity = 1 - total_severity
 
-  total_severity = 1-base_score
-  total_severity=round(total_severity, 2)
-    
-  return total_severity
+  return round(total_severity, 2)

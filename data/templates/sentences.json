@@ -2,16 +2,21 @@
   {
     "template": "Hello, I am {NAME} and I would like to introduce myself.",
     "entities": ["NAME"],
-    "expose":[0.9]
+    "expose":[1.0]
   },
   {
     "template": "My friends are {NAME} and {NAME}.",
     "entities": ["NAME", "NAME"],
-    "expose":[0.9, 0.3]
+    "expose":[1.0, 1.0]
   },
   {
-    "template": "I'm {NAME}. My email is {EMAIL} and I live in {LOCATION}.",
-    "entities": ["NAME", "EMAIL", "LOCATION"],
-    "expose":[0.9, 0.9, 0.3]
+    "template": "{NAME} works as an employee for {NAME}.",
+    "entities": ["NAME", "NAME"],
+    "expose":[1.0, 0.3]
+  },
+  {
+    "template": "{NAME} sent an email to {EMAIL} which belongs to {NAME}.",
+    "entities": ["NAME", "EMAIL", "NAME"],
+    "expose":[1.0, 1.0, 0.3]
   }
 ]

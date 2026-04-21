@@ -60,8 +60,6 @@ def build_text_with_spans(template: str, assigned_values: list[dict]) -> dict:
         count+=1
         # Update offset: difference between replacement length and placeholder length
         offset += len(value) - len(placeholder)
-    
-    print("...")
 
     # Now build the actual replaced text
     usage_index_reset = {}
