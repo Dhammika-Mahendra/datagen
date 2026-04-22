@@ -1,1 +1,210 @@
-[]
+[
+  {
+    "Text": "Hello, I am Michael Chen and I would like to introduce myself.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Michael Chen",
+        "Span": [
+          12,
+          24
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      }
+    ],
+    "Risk": 0.1
+  },
+  {
+    "Text": "Hello, I am Emily Clarke and I would like to introduce myself.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Emily Clarke",
+        "Span": [
+          12,
+          24
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      }
+    ],
+    "Risk": 0.1
+  },
+  {
+    "Text": "My friends are Amara Nwosu and Sophia Martinez.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Amara Nwosu",
+        "Span": [
+          15,
+          26
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      },
+      {
+        "Type": "NAME",
+        "Value": "Sophia Martinez",
+        "Span": [
+          31,
+          46
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      }
+    ],
+    "Risk": 0.15
+  },
+  {
+    "Text": "My friends are Sarah Johnson and Liam Davis.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Sarah Johnson",
+        "Span": [
+          15,
+          28
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      },
+      {
+        "Type": "NAME",
+        "Value": "Liam Davis",
+        "Span": [
+          33,
+          43
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      }
+    ],
+    "Risk": 0.15
+  },
+  {
+    "Text": "Amara Nwosu works as an employee for David Lee.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Amara Nwosu",
+        "Span": [
+          0,
+          11
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      },
+      {
+        "Type": "NAME",
+        "Value": "David Lee",
+        "Span": [
+          37,
+          46
+        ],
+        "Severity": 0.06,
+        "Expose": 0.3
+      }
+    ],
+    "Risk": 0.12
+  },
+  {
+    "Text": "John Perera works as an employee for Sophia Martinez.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "John Perera",
+        "Span": [
+          0,
+          11
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      },
+      {
+        "Type": "NAME",
+        "Value": "Sophia Martinez",
+        "Span": [
+          37,
+          52
+        ],
+        "Severity": 0.06,
+        "Expose": 0.3
+      }
+    ],
+    "Risk": 0.12
+  },
+  {
+    "Text": "Olivia Brown sent an email to d.lee@university.edu which belongs to Sarah Johnson.",
+    "Entities": [
+      {
+        "Type": "NAME",
+        "Value": "Olivia Brown",
+        "Span": [
+          0,
+          12
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      },
+      {
+        "Type": "EMAIL",
+        "Value": "d.lee@university.edu",
+        "Span": [
+          30,
+          50
+        ],
+        "Severity": 0.6,
+        "Expose": 1.0
+      },
+      {
+        "Type": "NAME",
+        "Value": "Sarah Johnson",
+        "Span": [
+          68,
+          81
+        ],
+        "Severity": 0.06,
+        "Expose": 0.3
+      }
+    ],
+    "Risk": 0.39
+  },
+  {
+    "Text": "Amara Nwosu sent an email to eclarke@company.org which belongs to John Perera.",
+    "Entities": [
+      {
+        "Type": "NAME",  
+        "Value": "Amara Nwosu",
+        "Span": [
+          0,
+          11
+        ],
+        "Severity": 0.2,
+        "Expose": 1.0
+      },
+      {
+        "Type": "EMAIL",
+        "Value": "eclarke@company.org",
+        "Span": [
+          29,
+          48
+        ],
+        "Severity": 0.6,
+        "Expose": 1.0
+      },
+      {
+        "Type": "NAME",
+        "Value": "John Perera",
+        "Span": [
+          66,
+          77
+        ],
+        "Severity": 0.06,
+        "Expose": 0.3
+      }
+    ],
+    "Risk": 0.39
+  }
+]

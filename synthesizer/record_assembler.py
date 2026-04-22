@@ -42,13 +42,17 @@ def assemble_record(template: dict, pii_values: dict[str, list[str]]) -> dict:
     array = []
     for entity in entity_values:
       entity_spans = build_text_with_spans(template["template"], entity)
-      array.append({"Text": entity_spans["Text"], "Entities": entity_spans["Entities"], "Risk" : calculate_total_severity(entity_spans["Entities"])})
+      array.append({"Text": entity_spans["Text"], 
+                    "Entities": entity_spans["Entities"], 
+                    "Risk" : calculate_total_severity(entity_spans["Entities"]),
+                    "TotalEntities": count_total_entities(entity_spans["Entities"]),
+                    "Link":False})
 
     return array
 
-#
-# severity
-#
+# --------------------------------------------------------------------
+#               Risk calulations
+# --------------------------------------------------------------------
 
 #severity.json file loading
 def load_severity() -> dict[str, int]:
@@ -91,3 +95,10 @@ def calculate_total_severity(entities: list[dict]) -> float:
   total_severity = 1 - total_severity
 
   return round(total_severity, 2)
+
+#count total elements in the list
+def count_total_entities(entities: list[dict]) -> int:
+    total = 0
+    for entity in entities:
+        total += 1
+    return total

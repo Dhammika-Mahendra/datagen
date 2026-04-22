@@ -1,7 +1,7 @@
 {
     "IDNO": 0.9,
     "BANKACCNO": 0.9,
-    "PHONENO": 0.7,
+    "PHONE": 0.7,
     "ADDRESS": 0.5,
     "EMAIL": 0.6,
     "LOCATION": 0.3,

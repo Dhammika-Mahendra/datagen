@@ -39,7 +39,7 @@ def parse_args() -> argparse.Namespace:
         "--seed", type=int, default=None,
         help="Random seed for reproducibility (default: no fixed seed)"
     )
-    return parser.parse_args()
+    return parser.parse_args() 
 
 
 def generate_dataset(seed: int | None = None) -> list[dict]:
