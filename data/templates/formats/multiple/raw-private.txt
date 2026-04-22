@@ -1,0 +1,118 @@
+ඔබට {NAME} ව {EMAIL} ඔස්සේ සම්බන්ධ කරගත හැක.
+ඔබට {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.
+{NAME} සේවය කරන්නේ {ORGANIZATION} හි ය.
+ගොනු {EMAIL} හරහා {NAME} වෙත එවන්න.
+{NAME} හට {PHONE} මගින් අමතන්න.
+{NAME} සේවය කරන්නේ {ORGANIZATION} ආයතනයේ ය.
+මගේ මිතුරා වන {NAME} වැඩ කරන්නේ {ORGANIZATION} හි ය.
+{ORGANIZATION} ආයතනය විසින් {NAME} ව සේවයේ යොදවා ඇත.
+{EMAIL} හරහා {NAME} සම්බන්ධ කරගන්න.
+{NAME} ගේ ආයතනය {ORGANIZATION} වේ.
+ඔබට {PHONE} හෝ {EMAIL} ඔස්සේ {NAME} සම්බන්ධ කරගත හැක.
+{PHONE} අංකයට ඇමතීමෙන් {ORGANIZATION} හි සිටින {NAME} සම්බන්ධ කරගන්න.
+{NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුව {EMAIL} මගින් සම්බන්ධ කරගත හැක.
+{NAME} වෙත {EMAIL} පණිවිඩයක් එවන්න නැතහොත් {PHONE} අංකයට අමතන්න.
+{ORGANIZATION} ආයතනයේ සේවක {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.
+{ORGANIZATION} හි සේවය කරන මගේ සගයා වන {NAME} ගේ විද්‍යුත් තැපෑල {EMAIL} වේ.
+{ORGANIZATION} සම්බන්ධ කර ගැනීමට {NAME} හට {PHONE} මගින් අමතන්න.
+{ORGANIZATION} හි {NAME} ව {EMAIL} හරහා සම්බන්ධ කරගත හැක.
+ඔබට {ORGANIZATION} හි සිටින {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.
+{ORGANIZATION} හි {NAME} සඳහා සම්බන්ධීකරණ විද්‍යුත් තැපෑල {EMAIL} වේ.
+මුදල් {NAME} ගේ {BANKACCNO} ගිණුමට මාරු කරන්න.
+මගේ සගයා වන {NAME} හට {BANKACCNO} බැංකු ගිණුමක් ඇත.
+{NAME} මට {BANKACCNO} ගිණුම් අංකය ලබා දුන්නේය.
+ගෙවීම් {NAME} ගේ {BANKACCNO} ගිණුමට කළ යුතුය.
+{NAME} ගේ බැංකු තොරතුරු වන්නේ {BANKACCNO} ගිණුමයි.
+{ORGANIZATION} විසින් {NAME} ගේ {BANKACCNO} ගිණුමට මුදල් මාරු කරන ලදී.
+ගෙවීම් සඳහා {NAME} විසින් {BANKACCNO} බැංකු ගිණුම ලබා දෙන ලදී.
+ප්‍රතිපූරණය {NAME} ගේ {BANKACCNO} ගිණුමට එවන්න.
+{NAME} මගෙන් ඉල්ලා සිටියේ {BANKACCNO} ගිණුමට මුදල් මාරු කරන ලෙසයි.
+මගේ ප්‍රධානියා වන {NAME} භාවිතා කරන්නේ {BANKACCNO} ගිණුමයි.
+ඔබට {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.
+{ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.
+{NAME} හට {PHONE} මගින් අමතන්න නැතහොත් {EMAIL} පණිවිඩයක් එවන්න.
+{ORGANIZATION} හි {NAME} වඩාත් කැමති {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ වීමටයි.
+{NAME} ව {ORGANIZATION} හි {EMAIL} හරහා හෝ {PHONE} මගින් සම්බන්ධ කරගන්න.
+{NAME} හට {PHONE} මගින් හෝ {ORGANIZATION} විද්‍යුත් තැපෑල වන {EMAIL} හරහා සම්බන්ධ වන්න.
+මගේ සම්බන්ධීකාරක {NAME} ව {EMAIL} සහ {PHONE} මගින් සම්බන්ධ කරගත හැක.
+{NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුගේ සම්බන්ධතා තොරතුරු {EMAIL} සහ {PHONE} වේ.
+{NAME} වෙත {EMAIL} පණිවිඩයක් එවන්න හෝ {ORGANIZATION} ආයතනයේ {PHONE} අංකයට අමතන්න.
+{NAME} ගේ තොරතුරු: {ORGANIZATION}, {EMAIL}, {PHONE}.
+ඔබට {ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.
+{ORGANIZATION} හි සිටින {NAME} හට {EMAIL} විද්‍යුත් තැපෑලක් සහ {PHONE} දුරකතන අංකයක් ඇත.
+{ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගන්න.
+{NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.
+{ORGANIZATION} හි සිටින {NAME} සම්බන්ධ කර ගැනීමට {EMAIL} භාවිතා කරන්න හෝ {PHONE} අංකයට අමතන්න.
+{ORGANIZATION} හි සිටින {NAME} සන්නිවේදනය සඳහා {EMAIL} හෝ {PHONE} වඩාත් ප්‍රිය කරයි.
+මගේ සගයා වන {NAME} ව {ORGANIZATION} හි {EMAIL} හෝ {PHONE} හරහා සම්බන්ධ කරගන්න.
+{ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.
+{ORGANIZATION} හි සේවය කරන මගේ සහෝදර සේවක {NAME} හට {EMAIL} විද්‍යුත් තැපෑලක් සහ {PHONE} අංකයක් ඇත.
+{ORGANIZATION} හි {NAME} ගේ කාර්යාල තොරතුරු: {EMAIL} සහ {PHONE}.
+මුදල් {ORGANIZATION} හි සිටින {NAME} ගේ {BANKACCNO} ගිණුමට මාරු කරන්න.
+{ORGANIZATION} හි සිටින {NAME} හට {BANKACCNO} බැංකු ගිණුමක් ඇත.
+ගෙවීම {ORGANIZATION} හි සිටින {NAME} ගේ {BANKACCNO} ගිණුමට එවන්න.
+{ORGANIZATION} හි සිටින {NAME} ගේ ගිණුම් අංකය {BANKACCNO} වේ.
+{ORGANIZATION} හි සිටින {NAME} ගේ සමාගම් ගිණුම {BANKACCNO} වේ.
+{NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුගේ ගිණුම් අංකය {BANKACCNO} වේ.
+{ORGANIZATION} හි සිටින මගේ කළමනාකරු {NAME} භාවිතා කරන්නේ {BANKACCNO} ගිණුමයි.
+{ORGANIZATION} සේවක {NAME} හට {BANKACCNO} බැංකු ගිණුමක් ඇත.
+{ORGANIZATION} හි සිටින {NAME} සඳහා වන ප්‍රතිපූරණය {BANKACCNO} වෙත යවනු ලැබේ.
+{ORGANIZATION} හි සිටින {NAME} ගේ බැංකු තොරතුරු: {BANKACCNO}.
+ඔබට {NAME} ව {EMAIL}, {PHONE} හෝ {ORGANIZATION} හරහා සම්බන්ධ කරගත හැක.
+{NAME} ව {EMAIL} මගින් හෝ {PHONE} මගින් සම්බන්ධ කරගන්න, නැතහොත් {ORGANIZATION} වෙත පැමිණෙන්න.
+{NAME} සේවය කරන්නේ {ORGANIZATION} හි ය, විද්‍යුත් තැපෑල {EMAIL} සහ දුරකතනය {PHONE} වේ.
+{NAME} ව {EMAIL}, {PHONE} මගින් හෝ {ORGANIZATION} හිදී සම්බන්ධ කරගන්න.
+{ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.
+මගේ සගයා වන {NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුගේ තොරතුරු {EMAIL} සහ {PHONE} වේ.
+{NAME} වෙත {EMAIL} පණිවිඩයක් එවන්න, {PHONE} අංකයට අමතන්න හෝ ඔහුව {ORGANIZATION} හිදී හමුවන්න.
+{ORGANIZATION} හි {NAME} ව {EMAIL} හෝ {PHONE} හරහා සම්බන්ධ කරගන්න.
+{NAME} ගේ සම්බන්ධතා විස්තර: {ORGANIZATION}, {EMAIL}, {PHONE}.
+{NAME} සිටින්නේ {ORGANIZATION} හි ය, ඔහුව {EMAIL} සහ {PHONE} මගින් සම්බන්ධ කරගත හැක.
+ඉන්වොයිසිය {NAME} වෙත {EMAIL} මගින් හෝ {BANKACCNO} ගිණුමට එවන්න.
+{NAME} හට {EMAIL} තහවුරු කිරීමක් හෝ {BANKACCNO} ගිණුම හරහා ගෙවීම් ලබා ගත හැක.
+{NAME} ගේ {BANKACCNO} ගිණුමට මුදල් මාරු කර එය {EMAIL} මගින් තහවුරු කරන්න.
+{NAME} වඩාත් කැමති {BANKACCNO} ගිණුමට ගෙවීම් ලබා ගැනීමට සහ එය {EMAIL} හරහා තහවුරු කිරීමටයි.
+{NAME} ගේ ගෙවීම් විස්තර: තහවුරු කිරීම සඳහා {EMAIL}, ගිණුම {BANKACCNO} වේ.
+{BANKACCNO} වෙත මුදල් මාරු කිරීම සම්බන්ධයෙන් {NAME} ව {EMAIL} මගින් සම්බන්ධ කරගන්න.
+{NAME} හට {BANKACCNO} ගිණුමට මුදල් ලැබෙනු ඇත, ඒ පිළිබඳව {EMAIL} මගින් දැනුම් දෙන්න.
+{NAME} වෙත {EMAIL} පණිවිඩයක් එවන්න සහ {BANKACCNO} ගිණුමට මුදල් මාරු කරන්න.
+{NAME} විසින් {BANKACCNO} ගිණුම සඳහා ගෙවීම් තහවුරු කිරීමක් {EMAIL} මගින් බලාපොරොත්තු වේ.
+{BANKACCNO} ගිණුම සම්බන්ධ විස්තර {NAME} වෙත {EMAIL} මගින් එවන්න.
+{NAME} හට {PHONE} මගින් අමතන්න හෝ {BANKACCNO} ගිණුමට ගෙවීම් එවන්න.
+{NAME} ගේ දුරකතනය {PHONE} වන අතර බැංකු ගිණුම {BANKACCNO} වේ.
+{BANKACCNO} වෙත මුදල් මාරු කිරීම සඳහා {NAME} ව {PHONE} මගින් සම්බන්ධ කරගන්න.
+{BANKACCNO} ගිණුම ගැන විමසීමට {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.
+{BANKACCNO} ගිණුමට කරන ගෙවීම සම්බන්ධයෙන් {NAME} ව {PHONE} මගින් සම්බන්ධ කරගන්න.
+{NAME} විසින් ගෙවීම් සඳහා {PHONE} අංකය සහ {BANKACCNO} ගිණුම ලබා දී ඇත.
+{BANKACCNO} බැංකු ගිණුම් විස්තර සඳහා {NAME} හට {PHONE} මගින් අමතන්න.
+{BANKACCNO} ගිණුම ගැන සාකච්ඡා කිරීමට {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.
+{BANKACCNO} ගිණුම තහවුරු කිරීමට {NAME} ව {PHONE} මගින් සම්බන්ධ කරගන්න.
+{PHONE} අංකයෙන් සම්බන්ධ කරගත හැකි {NAME} විසින් {BANKACCNO} ගිණුම් මාරු කිරීම් හසුරුවයි.
+{NAME} සේවය කරන්නේ {ORGANIZATION} හි ය, විද්‍යුත් තැපෑල {EMAIL} වන අතර ගිණුම {BANKACCNO} වේ.
+ගෙවීම් {ORGANIZATION} හි සිටින {NAME} ගේ {BANKACCNO} ගිණුමට යවා එය {EMAIL} මගින් තහවුරු කරන්න.
+{ORGANIZATION} හි {NAME} සම්බන්ධ කරගන්න: තොරතුරු සඳහා {EMAIL}, ගෙවීම් සඳහා {BANKACCNO}.
+{ORGANIZATION} හි සිටින {NAME} හට {BANKACCNO} ගිණුමක් සහ {EMAIL} විද්‍යුත් තැපෑලක් ඇත.
+{ORGANIZATION} හි සිටින {NAME} හට {BANKACCNO} හරහා මුදල් ලබාගත හැක, ඔහුව {EMAIL} මගින් සම්බන්ධ කරගන්න.
+{BANKACCNO} වෙත මුදල් මාරු කිරීම සඳහා {ORGANIZATION} හි {NAME} ව {EMAIL} මගින් සම්බන්ධ කරගන්න.
+{NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුට {BANKACCNO} ගිණුමක් සහ {EMAIL} විද්‍යුත් තැපෑලක් ඇත.
+{BANKACCNO} ගිණුමට කරන ගෙවීම් ගැන {ORGANIZATION} හි සිටින {NAME} ව {EMAIL} මගින් සම්බන්ධ කරගන්න.
+{ORGANIZATION} හි සිටින {NAME}: {EMAIL} මගින් සම්බන්ධ වන්න, {BANKACCNO} ගිණුමට එවන්න.
+ඉන්වොයිසිය {ORGANIZATION} හි සිටින {NAME} වෙත {EMAIL} මගින් එවන්න සහ {BANKACCNO} වෙත මුදල් මාරු කරන්න.
+{BANKACCNO} ගිණුම සම්බන්ධයෙන් {ORGANIZATION} හි සිටින {NAME} ව {PHONE} හෝ {EMAIL} මගින් සම්බන්ධ කරගන්න.
+{BANKACCNO} ගිණුම සම්බන්ධයෙන් {ORGANIZATION} හි සිටින {NAME} ව {PHONE} මගින් ඇමතීමට හෝ {EMAIL} පණිවිඩයක් එවීමට හැකිය.
+{ORGANIZATION} හි සිටින {NAME} ගේ {BANKACCNO} ගිණුමට ගෙවීම් කටයුතු සූදානම් කිරීමට {PHONE} හෝ {EMAIL} භාවිතා කරන්න.
+{ORGANIZATION} හි සිටින {NAME}: {PHONE} මගින් අමතන්න, {EMAIL} එවන්න, {BANKACCNO} වෙත මුදල් මාරු කරන්න.
+{NAME} සේවය කරන්නේ {ORGANIZATION} හි ය, ඔහුව {PHONE} හෝ {EMAIL} මගින් සම්බන්ධ කරගත හැක, ගිණුම {BANKACCNO} වේ.
+{BANKACCNO} ගිණුම සම්බන්ධයෙන් {ORGANIZATION} හි සිටින {NAME} හට {EMAIL} එවන්න හෝ {PHONE} මගින් අමතන්න.
+{ORGANIZATION} හි සිටින {NAME} හට {PHONE} අංකයක්, {EMAIL} ලිපිනයක් සහ {BANKACCNO} ගිණුමක් ඇත.
+{ORGANIZATION} හි {NAME} සම්බන්ධ කරගන්න: ඇමතුම් සඳහා {PHONE}, පණිවිඩ සඳහා {EMAIL}, ගෙවීම් සඳහා {BANKACCNO}.
+{BANKACCNO} වෙත මුදල් මාරු කිරීමට {ORGANIZATION} හි සිටින {NAME} ව {PHONE} හෝ {EMAIL} මගින් සම්බන්ධ කරගන්න.
+{ORGANIZATION} හි සිටින {NAME}: {PHONE}, {EMAIL}, ගිණුම {BANKACCNO} වේ.
+{BANKACCNO} ගිණුම සමඟ විස්තර {ORGANIZATION} හි සිටින {NAME} වෙත {EMAIL} හෝ {PHONE} මගින් එවන්න.
+{ORGANIZATION} හි සිටින {NAME} ගේ සන්නිවේදන තොරතුරු {EMAIL} සහ {PHONE} වන අතර ගිණුම {BANKACCNO} වේ.
+{ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගන්න, සහ {BANKACCNO} වෙත මුදල් මාරු කරන්න.
+{NAME} සේවය කරන්නේ {ORGANIZATION} හි ය, {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ වන්න, ගෙවීම් {BANKACCNO} වෙත කරන්න.
+සියලු කටයුතු සඳහා {ORGANIZATION} හි සිටින {NAME} ව {EMAIL}, {PHONE} සහ {BANKACCNO} ගිණුම හරහා සම්බන්ධ කරගන්න.
+{ORGANIZATION} හි සිටින {NAME}: විද්‍යුත් තැපෑල {EMAIL}, දුරකතනය {PHONE}, බැංකු ගිණුම {BANKACCNO}.
+{NAME} ව {ORGANIZATION} හි {EMAIL}, {PHONE} සහ {BANKACCNO} ගිණුම හරහා සම්බන්ධ කරගත හැක.
+{EMAIL} හෝ {PHONE} මගින් තහවුරු කිරීමෙන් පසු, ගෙවීම {ORGANIZATION} හි සිටින {NAME} ගේ {BANKACCNO} ගිණුමට එවන්න.

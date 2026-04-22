@@ -1,0 +1,452 @@
+[
+  {
+    "template": "මගේ සහෝදරයාගේ නම {NAME}.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} කියන්නේ මගේ කුඩා කල සිටම හොඳම යාළුවා.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "අද මම {NAME} සමඟ දිවා ආහාරය ගත්තා.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "අපේ අසල්වැසියා {NAME} හෙට විදේශගත වෙනවා.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මම {NAME} හමුවීමට ඔවුන්ගේ නිවසට ගියා.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "ශ්‍රී ලංකාවේ වත්මන් ජනාධිපතිවරයා ලෙස {NAME} කටයුතු කරයි.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ප්‍රවීණ ගායන ශිල්පී {NAME} අද සජීවී ප්‍රසංගයකට සහභාගී වේ.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ඉතිහාස පොත්වල සඳහන් වන පරිදි {NAME} රජතුමා විශාල සේවයක් ඉටු කළේය.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ප්‍රකට ව්‍යාපාරික {NAME} මහතා මෙම නව ව්‍යාපෘතිය ආරම්භ කරන ලදී.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ක්‍රීඩා ක්ෂේත්‍රයේ කැපී පෙනෙන තරුවක් වන {NAME} තරඟය ජයග්‍රහණය කළේය.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "වැඩි විස්තර දැනගැනීමට මගේ පුද්ගලික {EMAIL} ලිපිනයට පණිවිඩයක් එවන්න.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ සහෝදරයාට {EMAIL} හරහා ලේඛන ටික යොමු කරන්න.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "ඔයාට පුළුවන්ද මගේ {EMAIL} එකට ඒ පින්තූර ටික එවන්න?",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මම මගේ ගිණුමේ මුරපදය {EMAIL} ලිපිනයට යවා ඇත.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "කරුණාකර මාව {EMAIL} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "පාරිභෝගික පැමිණිලි සඳහා {EMAIL} හරහා අප ආයතනය හා සම්බන්ධ වන්න.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "රැකියා අයදුම්පත් {EMAIL} ලිපිනයට එවිය යුතු බව දන්වා සිටිමු.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "රජයේ තොරතුරු දැනගැනීමේ නිල විද්‍යුත් තැපෑල {EMAIL} වේ.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මාධ්‍ය විමසීම් සඳහා {EMAIL} ලිපිනය භාවිතා කරන්න.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "විශ්වවිද්‍යාලයේ ලියාපදිංචි කටයුතු {EMAIL} හරහා සිදු කළ හැක.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මගේ ඉතිරි කිරීමේ ගිණුම් අංකය වන {BANKACCNO} වෙත මුදල් තැන්පත් කරන්න.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "අම්මාගේ බෙහෙත් වලට අවශ්‍ය මුදල් මම {BANKACCNO} ගිණුමට දැම්මා.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ වැටුප් බැර වන්නේ {BANKACCNO} යන ගිණුමටයි.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "කරුණාකර මේ මාසයේ නිවාස කුලිය {BANKACCNO} ගිණුමට යොමු කරන්න.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මම මගේ {BANKACCNO} ගිණුමේ ශේෂය පරීක්ෂා කළා.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "ගංවතුර සහන අරමුදල සඳහා {BANKACCNO} ගිණුමට ආධාර එවිය හැක.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "පන්සලේ සංවර්ධන කටයුතු වෙනුවෙන් {BANKACCNO} අංකයට පරිත්‍යාග කරන්න.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "රජයේ ආදායම් බදු ගෙවීම් {BANKACCNO} ගිණුම හරහා සිදු කළ යුතුය.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මෙම රෝහල් ව්‍යාපෘතියට බැර කරන මුදල් {BANKACCNO} ගිණුමට යොමු කරන්න.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ප්‍රසිද්ධ පුණ්‍යායතනයේ නිල බැංකු ගිණුම {BANKACCNO} වේ.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මගේ හදිසි අවශ්‍යතාවයකදී {PHONE} අංකයට අමතන්න.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "තාත්තාගේ අලුත් දුරකථන අංකය {PHONE} වේ.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මට පණිවිඩයක් එවන්න ඕන නම් {PHONE} අංකය භාවිතා කරන්න.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මම මගේ අලුත් සිම් පතේ අංකය {PHONE} ලෙස වෙනස් කළා.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "ඔයාට මාව {PHONE} හරහා ඕනෑම වෙලාවක සම්බන්ධ කරගන්න පුළුවන්.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "හදිසි ගිනි නිවන සේවා සඳහා {PHONE} අංකය අමතන්න.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "පොලිස් හදිසි ඇමතුම් අංශයේ අංකය {PHONE} වේ.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ප්‍රධාන කාර්යාලයේ විමසීම් අංශය {PHONE} හරහා සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "පාරිභෝගික සේවා සහය ලබා ගැනීමට {PHONE} අමතන්න.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "සංචාරක තොරතුරු මධ්‍යස්ථානයේ ක්ෂණික ඇමතුම් අංකය {PHONE} වේ.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මගේ සහෝදරිය {ORGANIZATION} ආයතනයේ ලිපිකාරිනියක් ලෙස වැඩ කරයි.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "අපේ ගමේ තරුණ පිරිස {ORGANIZATION} නමින් කුඩා සමිතියක් හදාගත්තා.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ තාත්තා විශ්‍රාම ගියේ {ORGANIZATION} ආයතනයෙන්.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "අපි පවුලේ අය එකතු වෙලා {ORGANIZATION} නමින් පුණ්‍ය වැඩසටහනක් කරනවා.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මම ඊයේ {ORGANIZATION} එකට ගියේ මගේ පුද්ගලික වැඩකට.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "ලෝක සෞඛ්‍ය සංවිධානය හෙවත් {ORGANIZATION} මගින් නව වාර්තාවක් නිකුත් කළා.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} ආයතනය ශ්‍රී ලංකාවේ ප්‍රධානතම රාජ්‍ය බැංකුවකි.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "එක්සත් ජාතීන්ගේ සංවිධානයට අයත් {ORGANIZATION} මගින් ආධාර සපයයි.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මෙරට අධ්‍යාපන ක්ෂේත්‍රය නියාමනය කරන්නේ {ORGANIZATION} මගිනි.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} යනු ලොව පුරා ප්‍රසිද්ධ තාක්ෂණික සමාගමකි",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3
+    ]
+  }
+]
