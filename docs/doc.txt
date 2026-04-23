@@ -39,3 +39,10 @@ Template Complexity Levels (sentense, paragraph)
 Domain Variation
 
 
+===================================================================
+=========     Data set expectations
+===================================================================
+
+Identify PII with type
+Identify Private/Public
+Identify Connectivity

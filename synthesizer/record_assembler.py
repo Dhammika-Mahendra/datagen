@@ -24,19 +24,9 @@ from synthesizer.text_builder import build_text_with_spans
 
 
 def assemble_record(template: dict, pii_values: dict[str, list[str]]) -> dict:
-    """
-    Build one labelled training record from a template definition.
 
-    Args:
-        template:   A single template dict loaded from sentences.json.
-                    Expected keys: 'template' (str), 'entities' (list[str]).
-        pii_values: Full dict of all available PII value lists.
-
-    Returns:
-        A dict with 'text' and 'entities' keys ready for JSON serialisation.
-    """
     # Step 1: Sample PII values per entity type the template requires
-    entity_values = sample_entities(template["entities"], template["expose"], pii_values)
+    entity_values = sample_entities(template["entities"], template["expose"], template["group"], pii_values)
 
     # Step 2: Fill placeholders and get spans
     array = []
@@ -44,9 +34,11 @@ def assemble_record(template: dict, pii_values: dict[str, list[str]]) -> dict:
       entity_spans = build_text_with_spans(template["template"], entity)
       array.append({"Text": entity_spans["Text"], 
                     "Entities": entity_spans["Entities"], 
-                    "Risk" : calculate_total_severity(entity_spans["Entities"]),
                     "TotalEntities": count_total_entities(entity_spans["Entities"]),
-                    "Link":False})
+                    "TotalGroups": grouping_count(template["group"]),
+                    "Linking":grouping_link(template["group"]),
+                    "TotalRisk" : calculate_total_severity(entity_spans["Entities"])
+                    })
 
     return array
 
@@ -102,3 +94,13 @@ def count_total_entities(entities: list[dict]) -> int:
     for entity in entities:
         total += 1
     return total
+
+#calculate how many unique item types in the list
+def grouping_count(items: list) -> int:
+  return len(set(items))
+
+#linkability of groups
+def grouping_link(items: list) -> int:
+  count = len(set(items))
+  alpha = 0.7
+  return round(1/(1+ alpha*math.log(count)), 2)

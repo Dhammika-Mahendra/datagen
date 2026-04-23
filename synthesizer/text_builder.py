@@ -54,6 +54,7 @@ def build_text_with_spans(template: str, assigned_values: list[dict]) -> dict:
             "Type": entity_type,
             "Value": value,
             "Span": [adjusted_start, adjusted_end],
+            "Group": assigned_values[count].get("Group", 0),
             "Severity": round(get_severity(entity_type)*assigned_values[count].get("Expose", 0), 2), 
             "Expose": assigned_values[count].get("Expose", 0)
         })

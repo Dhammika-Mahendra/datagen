@@ -3,7 +3,7 @@ import random
 
 SAMPLING_COUNT = 2  # Number of values to sample per entity type (can be >1 for multi-entity templates)
 
-def sample_entities(entity_types: list[str], expose: list[str], pii_values: dict[str, list[str]]) -> list[dict]:
+def sample_entities(entity_types: list[str], expose: list[str], group: list[str], pii_values: dict[str, list[str]]) -> list[dict]:
     array = []
     
     #tracking list to avoid repeating same value for same entity type in a single record
@@ -25,7 +25,7 @@ def sample_entities(entity_types: list[str], expose: list[str], pii_values: dict
 
         for t in sample_obj:
             t["Expose"] = expose[sample_obj.index(t)]
-
+            t["Group"] = group[sample_obj.index(t)]
 
     return array
  

@@ -1,0 +1,3255 @@
+[
+{
+    "template": "මගේ සහෝදරයාගේ නම {NAME}.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} කියන්නේ මගේ කුඩා කල සිටම හොඳම යාළුවා.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "අද මම {NAME} සමඟ දිවා ආහාරය ගත්තා.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "අපේ අසල්වැසියා {NAME} හෙට විදේශගත වෙනවා.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මම {NAME} හමුවීමට ඔවුන්ගේ නිවසට ගියා.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "ශ්‍රී ලංකාවේ වත්මන් ජනාධිපතිවරයා ලෙස {NAME} කටයුතු කරයි.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ප්‍රවීණ ගායන ශිල්පී {NAME} අද සජීවී ප්‍රසංගයකට සහභාගී වේ.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ඉතිහාස පොත්වල සඳහන් වන පරිදි {NAME} රජතුමා විශාල සේවයක් ඉටු කළේය.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ප්‍රකට ව්‍යාපාරික {NAME} මහතා මෙම නව ව්‍යාපෘතිය ආරම්භ කරන ලදී.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ක්‍රීඩා ක්ෂේත්‍රයේ කැපී පෙනෙන තරුවක් වන {NAME} තරඟය ජයග්‍රහණය කළේය.",
+    "entities": [
+      "NAME"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "වැඩි විස්තර දැනගැනීමට මගේ පුද්ගලික {EMAIL} ලිපිනයට පණිවිඩයක් එවන්න.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ සහෝදරයාට {EMAIL} හරහා ලේඛන ටික යොමු කරන්න.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "ඔයාට පුළුවන්ද මගේ {EMAIL} එකට ඒ පින්තූර ටික එවන්න?",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මම මගේ ගිණුමේ මුරපදය {EMAIL} ලිපිනයට යවා ඇත.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "කරුණාකර මාව {EMAIL} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "පාරිභෝගික පැමිණිලි සඳහා {EMAIL} හරහා අප ආයතනය හා සම්බන්ධ වන්න.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "රැකියා අයදුම්පත් {EMAIL} ලිපිනයට එවිය යුතු බව දන්වා සිටිමු.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "රජයේ තොරතුරු දැනගැනීමේ නිල විද්‍යුත් තැපෑල {EMAIL} වේ.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මාධ්‍ය විමසීම් සඳහා {EMAIL} ලිපිනය භාවිතා කරන්න.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "විශ්වවිද්‍යාලයේ ලියාපදිංචි කටයුතු {EMAIL} හරහා සිදු කළ හැක.",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මගේ ඉතිරි කිරීමේ ගිණුම් අංකය වන {BANKACCNO} වෙත මුදල් තැන්පත් කරන්න.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "අම්මාගේ බෙහෙත් වලට අවශ්‍ය මුදල් මම {BANKACCNO} ගිණුමට දැම්මා.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ වැටුප් බැර වන්නේ {BANKACCNO} යන ගිණුමටයි.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "කරුණාකර මේ මාසයේ නිවාස කුලිය {BANKACCNO} ගිණුමට යොමු කරන්න.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මම මගේ {BANKACCNO} ගිණුමේ ශේෂය පරීක්ෂා කළා.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "ගංවතුර සහන අරමුදල සඳහා {BANKACCNO} ගිණුමට ආධාර එවිය හැක.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "පන්සලේ සංවර්ධන කටයුතු වෙනුවෙන් {BANKACCNO} අංකයට පරිත්‍යාග කරන්න.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "රජයේ ආදායම් බදු ගෙවීම් {BANKACCNO} ගිණුම හරහා සිදු කළ යුතුය.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මෙම රෝහල් ව්‍යාපෘතියට බැර කරන මුදල් {BANKACCNO} ගිණුමට යොමු කරන්න.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ප්‍රසිද්ධ පුණ්‍යායතනයේ නිල බැංකු ගිණුම {BANKACCNO} වේ.",
+    "entities": [
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මගේ හදිසි අවශ්‍යතාවයකදී {PHONE} අංකයට අමතන්න.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "තාත්තාගේ අලුත් දුරකථන අංකය {PHONE} වේ.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මට පණිවිඩයක් එවන්න ඕන නම් {PHONE} අංකය භාවිතා කරන්න.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මම මගේ අලුත් සිම් පතේ අංකය {PHONE} ලෙස වෙනස් කළා.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "ඔයාට මාව {PHONE} හරහා ඕනෑම වෙලාවක සම්බන්ධ කරගන්න පුළුවන්.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "හදිසි ගිනි නිවන සේවා සඳහා {PHONE} අංකය අමතන්න.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "පොලිස් හදිසි ඇමතුම් අංශයේ අංකය {PHONE} වේ.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "ප්‍රධාන කාර්යාලයේ විමසීම් අංශය {PHONE} හරහා සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "පාරිභෝගික සේවා සහය ලබා ගැනීමට {PHONE} අමතන්න.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "සංචාරක තොරතුරු මධ්‍යස්ථානයේ ක්ෂණික ඇමතුම් අංකය {PHONE} වේ.",
+    "entities": [
+      "PHONE"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මගේ සහෝදරිය {ORGANIZATION} ආයතනයේ ලිපිකාරිනියක් ලෙස වැඩ කරයි.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "අපේ ගමේ තරුණ පිරිස {ORGANIZATION} නමින් කුඩා සමිතියක් හදාගත්තා.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ තාත්තා විශ්‍රාම ගියේ {ORGANIZATION} ආයතනයෙන්.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "අපි පවුලේ අය එකතු වෙලා {ORGANIZATION} නමින් පුණ්‍ය වැඩසටහනක් කරනවා.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "මම ඊයේ {ORGANIZATION} එකට ගියේ මගේ පුද්ගලික වැඩකට.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0
+    ]
+  },
+  {
+    "template": "ලෝක සෞඛ්‍ය සංවිධානය හෙවත් {ORGANIZATION} මගින් නව වාර්තාවක් නිකුත් කළා.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} ආයතනය ශ්‍රී ලංකාවේ ප්‍රධානතම රාජ්‍ය බැංකුවකි.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "එක්සත් ජාතීන්ගේ සංවිධානයට අයත් {ORGANIZATION} මගින් ආධාර සපයයි.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "මෙරට අධ්‍යාපන ක්ෂේත්‍රය නියාමනය කරන්නේ {ORGANIZATION} මගිනි.",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} යනු ලොව පුරා ප්‍රසිද්ධ තාක්ෂණික සමාගමකි",
+    "entities": [
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3
+    ]
+  },
+   {
+    "template": "ඔබට {NAME} ව {EMAIL} ඔස්සේ සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ඔබට {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} හි ය.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ගොනු {EMAIL} හරහා {NAME} වෙත එවන්න.",
+    "entities": [
+      "EMAIL",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} හට {PHONE} මගින් අමතන්න.",
+    "entities": [
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} ආයතනයේ ය.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ මිතුරා වන {NAME} වැඩ කරන්නේ {ORGANIZATION} හි ය.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} ආයතනය විසින් {NAME} ව සේවයේ යොදවා ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{EMAIL} හරහා {NAME} සම්බන්ධ කරගන්න.",
+    "entities": [
+      "EMAIL",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} ගේ ආයතනය {ORGANIZATION} වේ.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ඔබට {PHONE} හෝ {EMAIL} ඔස්සේ {NAME} සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "PHONE",
+      "EMAIL",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{PHONE} අංකයට ඇමතීමෙන් {ORGANIZATION} හි සිටින {NAME} සම්බන්ධ කරගන්න.",
+    "entities": [
+      "PHONE",
+      "ORGANIZATION",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුව {EMAIL} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} වෙත {EMAIL} පණිවිඩයක් එවන්න නැතහොත් {PHONE} අංකයට අමතන්න.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} ආයතනයේ සේවක {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සේවය කරන මගේ සගයා වන {NAME} ගේ විද්‍යුත් තැපෑල {EMAIL} වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} සම්බන්ධ කර ගැනීමට {NAME} හට {PHONE} මගින් අමතන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} ව {EMAIL} හරහා සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ඔබට {ORGANIZATION} හි සිටින {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} සඳහා සම්බන්ධීකරණ විද්‍යුත් තැපෑල {EMAIL} වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "මුදල් {NAME} ගේ {BANKACCNO} ගිණුමට මාරු කරන්න.",
+    "entities": [
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ සගයා වන {NAME} හට {BANKACCNO} බැංකු ගිණුමක් ඇත.",
+    "entities": [
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} මට {BANKACCNO} ගිණුම් අංකය ලබා දුන්නේය.",
+    "entities": [
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ගෙවීම් {NAME} ගේ {BANKACCNO} ගිණුමට කළ යුතුය.",
+    "entities": [
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} ගේ බැංකු තොරතුරු වන්නේ {BANKACCNO} ගිණුමයි.",
+    "entities": [
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} විසින් {NAME} ගේ {BANKACCNO} ගිණුමට මුදල් මාරු කරන ලදී.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ගෙවීම් සඳහා {NAME} විසින් {BANKACCNO} බැංකු ගිණුම ලබා දෙන ලදී.",
+    "entities": [
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ප්‍රතිපූරණය {NAME} ගේ {BANKACCNO} ගිණුමට එවන්න.",
+    "entities": [
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} මගෙන් ඉල්ලා සිටියේ {BANKACCNO} ගිණුමට මුදල් මාරු කරන ලෙසයි.",
+    "entities": [
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ ප්‍රධානියා වන {NAME} භාවිතා කරන්නේ {BANKACCNO} ගිණුමයි.",
+    "entities": [
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ඔබට {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} හට {PHONE} මගින් අමතන්න නැතහොත් {EMAIL} පණිවිඩයක් එවන්න.",
+    "entities": [
+      "NAME",
+      "PHONE",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} වඩාත් කැමති {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ වීමටයි.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} ව {ORGANIZATION} හි {EMAIL} හරහා හෝ {PHONE} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} හට {PHONE} මගින් හෝ {ORGANIZATION} විද්‍යුත් තැපෑල වන {EMAIL} හරහා සම්බන්ධ වන්න.",
+    "entities": [
+      "NAME",
+      "PHONE",
+      "ORGANIZATION",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ සම්බන්ධීකාරක {NAME} ව {EMAIL} සහ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුගේ සම්බන්ධතා තොරතුරු {EMAIL} සහ {PHONE} වේ.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} වෙත {EMAIL} පණිවිඩයක් එවන්න හෝ {ORGANIZATION} ආයතනයේ {PHONE} අංකයට අමතන්න.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "ORGANIZATION",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} ගේ තොරතුරු: {ORGANIZATION}, {EMAIL}, {PHONE}.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ඔබට {ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} හට {EMAIL} විද්‍යුත් තැපෑලක් සහ {PHONE} දුරකතන අංකයක් ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} සම්බන්ධ කර ගැනීමට {EMAIL} භාවිතා කරන්න හෝ {PHONE} අංකයට අමතන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} සන්නිවේදනය සඳහා {EMAIL} හෝ {PHONE} වඩාත් ප්‍රිය කරයි.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ සගයා වන {NAME} ව {ORGANIZATION} හි {EMAIL} හෝ {PHONE} හරහා සම්බන්ධ කරගන්න.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සේවය කරන මගේ සහෝදර සේවක {NAME} හට {EMAIL} විද්‍යුත් තැපෑලක් සහ {PHONE} අංකයක් ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} ගේ කාර්යාල තොරතුරු: {EMAIL} සහ {PHONE}.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "මුදල් {ORGANIZATION} හි සිටින {NAME} ගේ {BANKACCNO} ගිණුමට මාරු කරන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} හට {BANKACCNO} බැංකු ගිණුමක් ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ගෙවීම {ORGANIZATION} හි සිටින {NAME} ගේ {BANKACCNO} ගිණුමට එවන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ගේ ගිණුම් අංකය {BANKACCNO} වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ගේ සමාගම් ගිණුම {BANKACCNO} වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුගේ ගිණුම් අංකය {BANKACCNO} වේ.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින මගේ කළමනාකරු {NAME} භාවිතා කරන්නේ {BANKACCNO} ගිණුමයි.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} සේවක {NAME} හට {BANKACCNO} බැංකු ගිණුමක් ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} සඳහා වන ප්‍රතිපූරණය {BANKACCNO} වෙත යවනු ලැබේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ගේ බැංකු තොරතුරු: {BANKACCNO}.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ඔබට {NAME} ව {EMAIL}, {PHONE} හෝ {ORGANIZATION} හරහා සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "PHONE",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} ව {EMAIL} මගින් හෝ {PHONE} මගින් සම්බන්ධ කරගන්න, නැතහොත් {ORGANIZATION} වෙත පැමිණෙන්න.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "PHONE",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} හි ය, විද්‍යුත් තැපෑල {EMAIL} සහ දුරකතනය {PHONE} වේ.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} ව {EMAIL}, {PHONE} මගින් හෝ {ORGANIZATION} හිදී සම්බන්ධ කරගන්න.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "PHONE",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "මගේ සගයා වන {NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුගේ තොරතුරු {EMAIL} සහ {PHONE} වේ.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} වෙත {EMAIL} පණිවිඩයක් එවන්න, {PHONE} අංකයට අමතන්න හෝ ඔහුව {ORGANIZATION} හිදී හමුවන්න.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "PHONE",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} ව {EMAIL} හෝ {PHONE} හරහා සම්බන්ධ කරගන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} ගේ සම්බන්ධතා විස්තර: {ORGANIZATION}, {EMAIL}, {PHONE}.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සිටින්නේ {ORGANIZATION} හි ය, ඔහුව {EMAIL} සහ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ඉන්වොයිසිය {NAME} වෙත {EMAIL} මගින් හෝ {BANKACCNO} ගිණුමට එවන්න.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} හට {EMAIL} තහවුරු කිරීමක් හෝ {BANKACCNO} ගිණුම හරහා ගෙවීම් ලබා ගත හැක.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} ගේ {BANKACCNO} ගිණුමට මුදල් මාරු කර එය {EMAIL} මගින් තහවුරු කරන්න.",
+    "entities": [
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} වඩාත් කැමති {BANKACCNO} ගිණුමට ගෙවීම් ලබා ගැනීමට සහ එය {EMAIL} හරහා තහවුරු කිරීමටයි.",
+    "entities": [
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} ගේ ගෙවීම් විස්තර: තහවුරු කිරීම සඳහා {EMAIL}, ගිණුම {BANKACCNO} වේ.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} වෙත මුදල් මාරු කිරීම සම්බන්ධයෙන් {NAME} ව {EMAIL} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "BANKACCNO",
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} හට {BANKACCNO} ගිණුමට මුදල් ලැබෙනු ඇත, ඒ පිළිබඳව {EMAIL} මගින් දැනුම් දෙන්න.",
+    "entities": [
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} වෙත {EMAIL} පණිවිඩයක් එවන්න සහ {BANKACCNO} ගිණුමට මුදල් මාරු කරන්න.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} විසින් {BANKACCNO} ගිණුම සඳහා ගෙවීම් තහවුරු කිරීමක් {EMAIL} මගින් බලාපොරොත්තු වේ.",
+    "entities": [
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම සම්බන්ධ විස්තර {NAME} වෙත {EMAIL} මගින් එවන්න.",
+    "entities": [
+      "BANKACCNO",
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} හට {PHONE} මගින් අමතන්න හෝ {BANKACCNO} ගිණුමට ගෙවීම් එවන්න.",
+    "entities": [
+      "NAME",
+      "PHONE",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} ගේ දුරකතනය {PHONE} වන අතර බැංකු ගිණුම {BANKACCNO} වේ.",
+    "entities": [
+      "NAME",
+      "PHONE",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} වෙත මුදල් මාරු කිරීම සඳහා {NAME} ව {PHONE} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "BANKACCNO",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම ගැන විමසීමට {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "BANKACCNO",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුමට කරන ගෙවීම සම්බන්ධයෙන් {NAME} ව {PHONE} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "BANKACCNO",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} විසින් ගෙවීම් සඳහා {PHONE} අංකය සහ {BANKACCNO} ගිණුම ලබා දී ඇත.",
+    "entities": [
+      "NAME",
+      "PHONE",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} බැංකු ගිණුම් විස්තර සඳහා {NAME} හට {PHONE} මගින් අමතන්න.",
+    "entities": [
+      "BANKACCNO",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම ගැන සාකච්ඡා කිරීමට {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "BANKACCNO",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම තහවුරු කිරීමට {NAME} ව {PHONE} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "BANKACCNO",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{PHONE} අංකයෙන් සම්බන්ධ කරගත හැකි {NAME} විසින් {BANKACCNO} ගිණුම් මාරු කිරීම් හසුරුවයි.",
+    "entities": [
+      "PHONE",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} හි ය, විද්‍යුත් තැපෑල {EMAIL} වන අතර ගිණුම {BANKACCNO} වේ.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ගෙවීම් {ORGANIZATION} හි සිටින {NAME} ගේ {BANKACCNO} ගිණුමට යවා එය {EMAIL} මගින් තහවුරු කරන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} සම්බන්ධ කරගන්න: තොරතුරු සඳහා {EMAIL}, ගෙවීම් සඳහා {BANKACCNO}.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} හට {BANKACCNO} ගිණුමක් සහ {EMAIL} විද්‍යුත් තැපෑලක් ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} හට {BANKACCNO} හරහා මුදල් ලබාගත හැක, ඔහුව {EMAIL} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} වෙත මුදල් මාරු කිරීම සඳහා {ORGANIZATION} හි {NAME} ව {EMAIL} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුට {BANKACCNO} ගිණුමක් සහ {EMAIL} විද්‍යුත් තැපෑලක් ඇත.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුමට කරන ගෙවීම් ගැන {ORGANIZATION} හි සිටින {NAME} ව {EMAIL} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME}: {EMAIL} මගින් සම්බන්ධ වන්න, {BANKACCNO} ගිණුමට එවන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "ඉන්වොයිසිය {ORGANIZATION} හි සිටින {NAME} වෙත {EMAIL} මගින් එවන්න සහ {BANKACCNO} වෙත මුදල් මාරු කරන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම සම්බන්ධයෙන් {ORGANIZATION} හි සිටින {NAME} ව {PHONE} හෝ {EMAIL} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "PHONE",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම සම්බන්ධයෙන් {ORGANIZATION} හි සිටින {NAME} ව {PHONE} මගින් ඇමතීමට හෝ {EMAIL} පණිවිඩයක් එවීමට හැකිය.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "PHONE",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ගේ {BANKACCNO} ගිණුමට ගෙවීම් කටයුතු සූදානම් කිරීමට {PHONE} හෝ {EMAIL} භාවිතා කරන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "PHONE",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME}: {PHONE} මගින් අමතන්න, {EMAIL} එවන්න, {BANKACCNO} වෙත මුදල් මාරු කරන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} හි ය, ඔහුව {PHONE} හෝ {EMAIL} මගින් සම්බන්ධ කරගත හැක, ගිණුම {BANKACCNO} වේ.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "PHONE",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම සම්බන්ධයෙන් {ORGANIZATION} හි සිටින {NAME} හට {EMAIL} එවන්න හෝ {PHONE} මගින් අමතන්න.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} හට {PHONE} අංකයක්, {EMAIL} ලිපිනයක් සහ {BANKACCNO} ගිණුමක් ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} සම්බන්ධ කරගන්න: ඇමතුම් සඳහා {PHONE}, පණිවිඩ සඳහා {EMAIL}, ගෙවීම් සඳහා {BANKACCNO}.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} වෙත මුදල් මාරු කිරීමට {ORGANIZATION} හි සිටින {NAME} ව {PHONE} හෝ {EMAIL} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "PHONE",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME}: {PHONE}, {EMAIL}, ගිණුම {BANKACCNO} වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම සමඟ විස්තර {ORGANIZATION} හි සිටින {NAME} වෙත {EMAIL} හෝ {PHONE} මගින් එවන්න.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ගේ සන්නිවේදන තොරතුරු {EMAIL} සහ {PHONE} වන අතර ගිණුම {BANKACCNO} වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගන්න, සහ {BANKACCNO} වෙත මුදල් මාරු කරන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} හි ය, {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ වන්න, ගෙවීම් {BANKACCNO} වෙත කරන්න.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "සියලු කටයුතු සඳහා {ORGANIZATION} හි සිටින {NAME} ව {EMAIL}, {PHONE} සහ {BANKACCNO} ගිණුම හරහා සම්බන්ධ කරගන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME}: විද්‍යුත් තැපෑල {EMAIL}, දුරකතනය {PHONE}, බැංකු ගිණුම {BANKACCNO}.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} ව {ORGANIZATION} හි {EMAIL}, {PHONE} සහ {BANKACCNO} ගිණුම හරහා සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{EMAIL} හෝ {PHONE} මගින් තහවුරු කිරීමෙන් පසු, ගෙවීම {ORGANIZATION} හි සිටින {NAME} ගේ {BANKACCNO} ගිණුමට එවන්න.",
+    "entities": [
+      "EMAIL",
+      "PHONE",
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "template": "{NAME} යනු {ORGANIZATION} හි ප්‍රධාන විධායක නිලධාරියා වේ.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{NAME} අධ්‍යක්ෂවරයෙකු ලෙස {ORGANIZATION} හි සේවය කරයි.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} විසින් {NAME} ව ප්‍රධාන කළමනාකරු ලෙස බඳවා ගන්නා ලදී.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME"
+    ],
+    "expose": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} විසින් නව ප්‍රතිපත්තිය ප්‍රකාශයට පත් කරන ලදී.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME"
+    ],
+    "expose": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සභාපතිවරයා වන්නේ {NAME} ය.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME"
+    ],
+    "expose": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "සම්මන්ත්‍රණයේදී {ORGANIZATION} නියෝජනය කරන්නේ {NAME} විසිනි.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME"
+    ],
+    "expose": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "විමසීම් සඳහා {NAME} ව {EMAIL} ඔස්සේ සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} නාමාවලියෙහි {NAME} ව {EMAIL} යටතේ ඇතුළත් කර ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{NAME} පොදු සම්බන්ධීකාරක ලෙස {EMAIL} හරහා කටයුතු කරයි.",
+    "entities": [
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "නිල ප්‍රකාශක {NAME} විසින් {EMAIL} භාවිතා කරයි.",
+    "entities": [
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "මහජන ඉල්ලීම් සඳහා {NAME} ව {EMAIL} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} විසින් සම්බන්ධීකාරක ලෙස {NAME} ව {EMAIL} ඔස්සේ ලබා දී ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} හට {PHONE} මගින් අමතන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} නියෝජිත {NAME} හට {PHONE} මගින් ප්‍රතිචාර දක්වයි.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} සඳහා වන පොදු ක්ෂණික ඇමතුම් අංකය {PHONE} වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} සඳහා වන නිල අංකය {PHONE} වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} ව {PHONE} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} හට {EMAIL} විද්‍යුත් තැපෑලක් සහ {PHONE} දුරකතන අංකයක් ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ව {EMAIL} හරහා හෝ {PHONE} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} ව {EMAIL} හෝ {PHONE} ඔස්සේ සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි පොදු සම්බන්ධීකාරක {NAME}: {EMAIL} සහ {PHONE}.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{NAME} සේවය කරන්නේ {ORGANIZATION} හි වන අතර ඔහුගේ ප්‍රසිද්ධ කරන ලද සම්බන්ධතා තොරතුරු {EMAIL} සහ {PHONE} වේ.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} සම්බන්ධ කර ගැනීමට {PHONE} අංකයට අමතන්න හෝ {EMAIL} පණිවිඩයක් එවන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "PHONE",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} විසින් {NAME} ව නව නායකයා ලෙස ප්‍රකාශයට පත් කරන ලද අතර ඔහුගේ සම්බන්ධතා ලිපිනය {EMAIL} වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{NAME} අධ්‍යක්ෂවරයෙකු ලෙස {ORGANIZATION} සමඟ සම්බන්ධ වන අතර, ඔහුව {EMAIL} සහ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} ගේ පොදු පැතිකඩෙහි {EMAIL} සහ {PHONE} සඳහන් වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{NAME} ප්‍රසිද්ධියේ {ORGANIZATION} නියෝජනය කරන අතර ඔහුට {EMAIL} සහ {PHONE} ඔස්සේ සම්බන්ධ විය හැක.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} පොදු සන්නිවේදනය සඳහා {EMAIL} සහ {PHONE} සමඟ ලැයිස්තුගත කර ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} විසින් {NAME} පත් කර ඇති අතර ඔහුගේ පොදු සම්බන්ධතා තොරතුරු {EMAIL} සහ {PHONE} වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි අධ්‍යක්ෂ {NAME} විසින් {BANKACCNO} ගිණුම පාලනය කරයි.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} විසින් {BANKACCNO} ආයතනික ගිණුම අධීක්ෂණය කරයි.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි ගිණුම් හිමිකරු වන {NAME} විසින් {BANKACCNO} ගිණුම පවත්වාගෙන යයි.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} සඳහා වන නිල ගිණුම {BANKACCNO} වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{NAME} විසින් {ORGANIZATION} හි ඇති {BANKACCNO} පොදු ගිණුම අනුමත කරන ලදී.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම සඳහා වගකිවයුතු පුද්ගලයා ලෙස {ORGANIZATION} විසින් {NAME} ව නම් කර ඇත.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} විසින් {BANKACCNO} ගිණුම හරහා පරිත්‍යාග භාර ගන්නා අතර {EMAIL} මගින් තහවුරු කරයි.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} වෙත {BANKACCNO} ගිණුමට මුදල් එවන්න, සහ එය {EMAIL} හරහා තහවුරු කරන්න.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} හට {BANKACCNO} වෙත පොදු ගෙවීම් ලැබෙන අතර ඒ පිළිබඳව {EMAIL} මගින් දැනුම් දෙනු ලැබේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} සඳහා වන {BANKACCNO} පුණ්‍යාධාර ගිණුම {EMAIL} හරහා ප්‍රකාශයට පත් කර ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} විසින් පරිත්‍යාග සඳහා {BANKACCNO} ගිණුම ප්‍රසිද්ධ කළ අතර {EMAIL} හරහා තහවුරු කිරීම් සිදු කෙරේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} වෙත කෙරෙන පොදු මාරු කිරීම් {BANKACCNO} වෙත යන අතර එහි විස්තර {EMAIL} හි සඳහන් වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{BANKACCNO} පොදු ගිණුම සම්බන්ධයෙන් {ORGANIZATION} හි {NAME} හට {PHONE} මගින් අමතන්න.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම සම්බන්ධයෙන් {ORGANIZATION} හි {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම් විමසීම් සඳහා {ORGANIZATION} හි සිටින පොදු සන්නිවේදන නිලධාරී {NAME} {PHONE} මගින් ප්‍රතිචාර දක්වයි.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම ගැන සාකච්ඡා කිරීමට {ORGANIZATION} හි {NAME} ව {PHONE} මගින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} විසින් {BANKACCNO} ගිණුම සඳහා සම්බන්ධතා අංකය ලෙස {PHONE} ලබා දී ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම් කටයුතු සඳහා {ORGANIZATION} හි රජයේ සම්බන්ධීකරණ නිලධාරී {NAME} විසින් {PHONE} භාවිතා කරයි.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} විසින් {BANKACCNO} ගිණුම පාලනය කරන අතර ඔහුව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} විසින් {BANKACCNO} ගිණුම {EMAIL} සහ {PHONE} සම්බන්ධතා තොරතුරු සමඟ ප්‍රසිද්ධියේ ලැයිස්තුගත කර ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි මූල්‍ය නිලධාරී {NAME} විසින් {BANKACCNO} අධීක්ෂණය කරන අතර ඔහුව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} විසින් ප්‍රකාශිත සම්බන්ධතා තොරතුරු වන {EMAIL} සහ {PHONE} සමඟ පොදු {BANKACCNO} ගිණුම හසුරුවයි.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE",
+      "BANKACCNO"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම සඳහා {ORGANIZATION} නියෝජනය කරන්නේ {NAME} වන අතර ඔහු {EMAIL} සහ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම සම්බන්ධයෙන් {ORGANIZATION} හි {NAME} ව {EMAIL} හෝ {PHONE} හරහා සම්බන්ධ කරගන්න.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින {NAME} විසින් {BANKACCNO} ගිණුම {EMAIL} සහ {PHONE} සම්බන්ධතා විස්තර සමඟ ප්‍රකාශයට පත් කර ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි නිල ප්‍රකාශක {NAME} විසින් {BANKACCNO}, {EMAIL} සහ {PHONE} කළමනාකරණය කරයි.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි {NAME} විසින් පොදු වාර්තාවල {BANKACCNO} ගිණුම {EMAIL} සහ {PHONE} සමඟ ඇතුළත් කර ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ගිණුම් කටයුතු සඳහා {ORGANIZATION} හි සිටින {NAME} ව {EMAIL} මගින් හෝ {PHONE} ඇමතුමකින් සම්බන්ධ කරගන්න.",
+    "entities": [
+      "BANKACCNO",
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි සිටින රජයේ නිලධාරී {NAME} විසින් {BANKACCNO} අධීක්ෂණය කරන අතර, ඔහු {EMAIL} සහ {PHONE} මගින් සම්බන්ධ කරගත හැක.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "{NAME} ප්‍රසිද්ධියේ {ORGANIZATION} නියෝජනය කරමින් {BANKACCNO} ගිණුම හසුරුවන අතර ඔහුගේ සම්බන්ධතා තොරතුරු {EMAIL} සහ {PHONE} වේ",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "BANKACCNO",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  {
+    "template": "මගේ සහෝදරයා වන {NAME} ප්‍රමුඛ පෙළේ තාක්ෂණික සමාගමක් වන {ORGANIZATION} හි සේවය කරයි",
+    "entities": [
+      "NAME",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1,
+      0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි ප්‍රධාන විධායක නිලධාරී {NAME} අද ඒකාබද්ධ වීම ප්‍රකාශයට පත් කළේය",
+    "entities": [
+      "ORGANIZATION",
+      "NAME"
+    ],
+    "expose": [
+      0,
+      0
+    ]
+  },
+  {
+    "template": "ඔබට මගේ සගයා වන {NAME} ව {EMAIL} ඔස්සේ සම්බන්ධ කරගත හැක",
+    "entities": [
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      1,
+      1
+    ]
+  },
+  {
+    "template": "සහාය සඳහා {EMAIL} ඔස්සේ පාරිභෝගික සේවය සම්බන්ධ කරගන්න",
+    "entities": [
+      "EMAIL"
+    ],
+    "expose": [
+      0
+    ]
+  },
+  {
+    "template": "මගේ මිතුරා වන {NAME} පසුගිය මාසයේ {ORGANIZATION} වෙත මාරු විය",
+    "entities": [
+      "NAME",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1,
+      1
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි නිල ප්‍රකාශක {NAME} මාධ්‍ය සාකච්ඡාවක් පවත්වයි",
+    "entities": [
+      "ORGANIZATION",
+      "NAME"
+    ],
+    "expose": [
+      0,
+      0
+    ]
+  },
+  {
+    "template": "ලේඛන {NAME} වෙත {EMAIL} මගින් එවන්න සහ {PHONE} අංකයට අමතන්න",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි අධ්‍යක්ෂ {NAME} විසින් {BANKACCNO} ගිණුම පාලනය කරයි",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "template": "මම {PHONE} හි සේවය කරන {NAME} සමඟ එකම නිවාසයක වාසය කරමි",
+    "entities": [
+      "PHONE",
+      "NAME"
+    ],
+    "expose": [
+      1,
+      1
+    ]
+  },
+  {
+    "template": "{NAME} සමඟ කතා කිරීමට {ORGANIZATION} හි පොදු ක්ෂණික ඇමතුම් අංකය වන {PHONE} වෙත අමතන්න",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "PHONE"
+    ],
+    "expose": [
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "template": "මගේ ප්‍රධානියා වන {NAME} සියලුම කරුණු සඳහා {EMAIL} හරහා සන්නිවේදනය කිරීමට කැමැත්තක් දක්වයි",
+    "entities": [
+      "NAME",
+      "EMAIL"
+    ],
+    "expose": [
+      1,
+      1
+    ]
+  },
+  {
+    "template": "රජයේ නිලධාරී {NAME} විසින් {ORGANIZATION} සඳහා වන ප්‍රතිපාදන {EMAIL} මගින් නිවේදනය කළේය",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL"
+    ],
+    "expose": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "template": "මගේ සහායක {NAME} ව {PHONE} මගින් හෝ {EMAIL} විද්‍යුත් තැපෑලෙන් සම්බන්ධ කරගන්න",
+    "entities": [
+      "NAME",
+      "PHONE",
+      "EMAIL"
+    ],
+    "expose": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} පුණ්‍යාධාර ආයතනය {BANKACCNO} ගිණුමට {EMAIL} හරහා පරිත්‍යාග භාර ගනී",
+    "entities": [
+      "ORGANIZATION",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "template": "මගේ පවුලේ මිතුරෙකු වන {NAME} මෑතකදී කළමනාකරුවෙකු ලෙස {ORGANIZATION} සමඟ සම්බන්ධ විය",
+    "entities": [
+      "NAME",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1,
+      0
+    ]
+  },
+  {
+    "template": "පොදු වාර්තාවලට අනුව {BANKACCNO} ගිණුමේ පාලකයා ලෙස {NAME} පෙනී සිටියි",
+    "entities": [
+      "BANKACCNO",
+      "NAME"
+    ],
+    "expose": [
+      0,
+      0
+    ]
+  },
+  {
+    "template": "සම්මන්ත්‍රණයේදී {ORGANIZATION} නියෝජනය කළ {NAME} ව මට හමු විය",
+    "entities": [
+      "ORGANIZATION",
+      "NAME"
+    ],
+    "expose": [
+      1,
+      0
+    ]
+  },
+  {
+    "template": "විමසීම් සඳහා {ORGANIZATION} හි {NAME} ව {EMAIL} සහ {PHONE} මගින් සම්බන්ධ කරගන්න",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "template": "මගේ පෞද්ගලික හිතවතෙකු වන {NAME} විසින් {BANKACCNO} ගිණුම පෞද්ගලිකව හසුරුවනු ලබයි",
+    "entities": [
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1,
+      0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි ලැයිස්තුගත අධ්‍යක්ෂ {NAME} විසින් {BANKACCNO} සහ {EMAIL} ප්‍රසිද්ධියේ කළමනාකරණය කරයි",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "template": "උත්සවයේ විස්තර සඳහා ඔබට මගේ මිතුරා වන {NAME} ව {PHONE} මගින් සම්බන්ධ කරගත හැක",
+    "entities": [
+      "NAME",
+      "PHONE"
+    ],
+    "expose": [
+      1,
+      1
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි නිලධාරී {NAME} ව {EMAIL} සහ {PHONE} ඔස්සේ සම්බන්ධ කරගත හැක",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "template": "මගේ කාමර සගයා වන {NAME} {ORGANIZATION} හි සේවය කරන අතර ඔහුට {BANKACCNO} වෙත ගෙවීම් ලබා ගත හැක",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} හි පොදු සම්බන්ධීකාරක {NAME} විසින් {EMAIL} සහ {BANKACCNO} ගිණුම ලැයිස්තුගත කර ඇත",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "template": "මම නිර්දේශ කරන්නේ {ORGANIZATION} හි සිටින මගේ හවුල්කරු {NAME} ව {EMAIL} හෝ {PHONE} මගින් සම්බන්ධ කරගන්නා ලෙසයි",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1,
+      0,
+      1,
+      1
+    ]
+  }
+]
