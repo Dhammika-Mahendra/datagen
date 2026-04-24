@@ -1,0 +1,30 @@
+{NAME}, {NAME}, සහ {NAME} රැස්වීමට සහභාගී වූහ.
+වැඩි විස්තර සඳහා {EMAIL}, {EMAIL}, හෝ {EMAIL} හරහා සම්බන්ධ කරගන්න.
+වාර්තාවලට {PHONE}, {PHONE}, සහ {PHONE} ඇතුළත් වේ.
+සංවිධාන අතරට {ORGANIZATION}, {ORGANIZATION}, සහ {ORGANIZATION} ඇතුළත් වේ.
+පද්ධතිය විසින් {BANKACCNO}, {BANKACCNO}, සහ {BANKACCNO} ඇතුළත් කිරීම් වාර්තා කර ඇත.
+වාර්තාවේ {NAME} පිළිබඳව {ORGANIZATION} සහ {EMAIL} සමඟ සඳහන් කර ඇත.
+ලබාගත හැකි සම්බන්ධතා: {PHONE}, {EMAIL}, සහ {ORGANIZATION}.
+හමු වූ ඇතුළත් කිරීම්: {NAME}, {EMAIL}, සහ {BANKACCNO}.
+දත්ත සමුදායේ {ORGANIZATION}, {PHONE}, සහ {BANKACCNO} ලැයිස්තුගත කර ඇත.
+{EMAIL}, {EMAIL}, සහ {NAME} වෙනම කොටස්වල දිස්වේ.
+{NAME} ලැයිස්තුගත කර ඇත. තවත් ඇතුළත් කිරීමක {NAME} පෙන්වයි. තෙවැන්නක {NAME} පෙන්වයි.
+{PHONE} මීට පෙර වාර්තා විය. පසුව, {PHONE} නැවත දිස්වේ.
+{EMAIL} සංරක්ෂණය කර ඇත. {EMAIL} වෙනත් ෆෝල්ඩරයක ඇත.
+{ORGANIZATION} එක් ගොනුවක දිස්වන අතර {ORGANIZATION} වෙනත් ගොනුවක ඇත.
+{BANKACCNO} යන්න {BANKACCNO} ගෙන් වෙන්ව ගබඩා කර ඇත.
+කිසිදු සම්බන්ධයක් නැති ඇතුළත් කිරීම්: {NAME}. {EMAIL}. {PHONE}.
+විසිරී ඇති දත්තවලට {ORGANIZATION} ඇතුළත් වේ. එමෙන්ම {BANKACCNO} ද වේ. තවද {EMAIL} ද වේ.
+{NAME} මෙහි දිස්වේ. {ORGANIZATION} වෙනත් තැනක දිස්වේ. {PHONE} වෙන්ව පවතී.
+ලොගයෙහි {EMAIL} පෙන්වයි. තවත් ලොගයක {PHONE} පෙන්වයි.
+{BANKACCNO}, {EMAIL}, සහ {NAME} ස්වාධීනව ලැයිස්තුගත කර ඇත.
+පළමු වාර්තාව: {NAME}. දෙවන වාර්තාව: {EMAIL}. තෙවන වාර්තාව: {PHONE}.
+{ORGANIZATION} සටහන් කර ඇත. වෙනමම, {ORGANIZATION} ද සටහන් කර ඇත.
+සංරක්ෂිත අගයන් අතරට {BANKACCNO}, {PHONE}, සහ {EMAIL} ඇතුළත් වේ.
+{NAME} එක් වරක් දිස්වේ. {EMAIL} දෙවරක් දිස්වේ. {PHONE} පසුව දිස්වේ.
+සම්බන්ධයක් නැති සඳහන් කිරීම්: {ORGANIZATION}, {NAME}, සහ {BANKACCNO}.
+{EMAIL} යනු එක් ඇතුළත් කිරීමකි; {EMAIL} තවත් එකකි; {EMAIL} තවත් එකකි.
+ලොගයන්හි {PHONE} සඳහන් වේ. වාර්තාවල {NAME} සඳහන් වේ.
+{ORGANIZATION}, {EMAIL}, සහ {PHONE} විවිධ වගුවල ගබඩා කර ඇත.
+{BANKACCNO} ලබාගෙන ඇත. {NAME} වෙනම ලබාගෙන ඇත.
+විවිධ ක්ෂේත්‍රවල {EMAIL}, {ORGANIZATION}, සහ {NAME} කිසිදු සම්බන්ධතාවයකින් තොරව අඩංගු වේ.

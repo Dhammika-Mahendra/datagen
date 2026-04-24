@@ -1,0 +1,518 @@
+[
+  {
+    "template": "{NAME}, {NAME}, සහ {NAME} රැස්වීමට සහභාගී වූහ.",
+    "entities": [
+      "NAME",
+      "NAME",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "වැඩි විස්තර සඳහා {EMAIL}, {EMAIL}, හෝ {EMAIL} හරහා සම්බන්ධ කරගන්න.",
+    "entities": [
+      "EMAIL",
+      "EMAIL",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "වාර්තාවලට {PHONE}, {PHONE}, සහ {PHONE} ඇතුළත් වේ.",
+    "entities": [
+      "PHONE",
+      "PHONE",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "සංවිධාන අතරට {ORGANIZATION}, {ORGANIZATION}, සහ {ORGANIZATION} ඇතුළත් වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "ORGANIZATION",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "පද්ධතිය විසින් {BANKACCNO}, {BANKACCNO}, සහ {BANKACCNO} ඇතුළත් කිරීම් වාර්තා කර ඇත.",
+    "entities": [
+      "BANKACCNO",
+      "BANKACCNO",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "වාර්තාවේ {NAME} පිළිබඳව {ORGANIZATION} සහ {EMAIL} සමඟ සඳහන් කර ඇත.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "ලබාගත හැකි සම්බන්ධතා: {PHONE}, {EMAIL}, සහ {ORGANIZATION}.",
+    "entities": [
+      "PHONE",
+      "EMAIL",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "හමු වූ ඇතුළත් කිරීම්: {NAME}, {EMAIL}, සහ {BANKACCNO}.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "දත්ත සමුදායේ {ORGANIZATION}, {PHONE}, සහ {BANKACCNO} ලැයිස්තුගත කර ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "PHONE",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "{EMAIL}, {EMAIL}, සහ {NAME} වෙනම කොටස්වල දිස්වේ.",
+    "entities": [
+      "EMAIL",
+      "EMAIL",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "{NAME} ලැයිස්තුගත කර ඇත. තවත් ඇතුළත් කිරීමක {NAME} පෙන්වයි. තෙවැන්නක {NAME} පෙන්වයි.",
+    "entities": [
+      "NAME",
+      "NAME",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "{PHONE} මීට පෙර වාර්තා විය. පසුව, {PHONE} නැවත දිස්වේ.",
+    "entities": [
+      "PHONE",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2
+    ]
+  },
+  {
+    "template": "{EMAIL} සංරක්ෂණය කර ඇත. {EMAIL} වෙනත් ෆෝල්ඩරයක ඇත.",
+    "entities": [
+      "EMAIL",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} එක් ගොනුවක දිස්වන අතර {ORGANIZATION} වෙනත් ගොනුවක ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2
+    ]
+  },
+  {
+    "template": "{BANKACCNO} යන්න {BANKACCNO} ගෙන් වෙන්ව ගබඩා කර ඇත.",
+    "entities": [
+      "BANKACCNO",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2
+    ]
+  },
+  {
+    "template": "කිසිදු සම්බන්ධයක් නැති ඇතුළත් කිරීම්: {NAME}. {EMAIL}. {PHONE}.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "විසිරී ඇති දත්තවලට {ORGANIZATION} ඇතුළත් වේ. එමෙන්ම {BANKACCNO} ද වේ. තවද {EMAIL} ද වේ.",
+    "entities": [
+      "ORGANIZATION",
+      "BANKACCNO",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "{NAME} මෙහි දිස්වේ. {ORGANIZATION} වෙනත් තැනක දිස්වේ. {PHONE} වෙන්ව පවතී.",
+    "entities": [
+      "NAME",
+      "ORGANIZATION",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "ලොගයෙහි {EMAIL} පෙන්වයි. තවත් ලොගයක {PHONE} පෙන්වයි.",
+    "entities": [
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2
+    ]
+  },
+  {
+    "template": "{BANKACCNO}, {EMAIL}, සහ {NAME} ස්වාධීනව ලැයිස්තුගත කර ඇත.",
+    "entities": [
+      "BANKACCNO",
+      "EMAIL",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "පළමු වාර්තාව: {NAME}. දෙවන වාර්තාව: {EMAIL}. තෙවන වාර්තාව: {PHONE}.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "{ORGANIZATION} සටහන් කර ඇත. වෙනමම, {ORGANIZATION} ද සටහන් කර ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "ORGANIZATION"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2
+    ]
+  },
+  {
+    "template": "සංරක්ෂිත අගයන් අතරට {BANKACCNO}, {PHONE}, සහ {EMAIL} ඇතුළත් වේ.",
+    "entities": [
+      "BANKACCNO",
+      "PHONE",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "{NAME} එක් වරක් දිස්වේ. {EMAIL} දෙවරක් දිස්වේ. {PHONE} පසුව දිස්වේ.",
+    "entities": [
+      "NAME",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "සම්බන්ධයක් නැති සඳහන් කිරීම්: {ORGANIZATION}, {NAME}, සහ {BANKACCNO}.",
+    "entities": [
+      "ORGANIZATION",
+      "NAME",
+      "BANKACCNO"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "{EMAIL} යනු එක් ඇතුළත් කිරීමකි; {EMAIL} තවත් එකකි; {EMAIL} තවත් එකකි.",
+    "entities": [
+      "EMAIL",
+      "EMAIL",
+      "EMAIL"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "ලොගයන්හි {PHONE} සඳහන් වේ. වාර්තාවල {NAME} සඳහන් වේ.",
+    "entities": [
+      "PHONE",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2
+    ]
+  },
+  {
+    "template": "{ORGANIZATION}, {EMAIL}, සහ {PHONE} විවිධ වගුවල ගබඩා කර ඇත.",
+    "entities": [
+      "ORGANIZATION",
+      "EMAIL",
+      "PHONE"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "template": "{BANKACCNO} ලබාගෙන ඇත. {NAME} වෙනම ලබාගෙන ඇත.",
+    "entities": [
+      "BANKACCNO",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2
+    ]
+  },
+  {
+    "template": "විවිධ ක්ෂේත්‍රවල {EMAIL}, {ORGANIZATION}, සහ {NAME} කිසිදු සම්බන්ධතාවයකින් තොරව අඩංගු වේ.",
+    "entities": [
+      "EMAIL",
+      "ORGANIZATION",
+      "NAME"
+    ],
+    "expose": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "group": [
+      1,
+      2,
+      3
+    ]
+  }
+]
