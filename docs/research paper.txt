@@ -1,0 +1,5 @@
+3 fundamental risk factors:-
+Identifiability – can it uniquely identify a person?
+Contactability – can it be used to reach them?
+Locatability – can it reveal their physical/digital location?
+

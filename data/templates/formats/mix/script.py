@@ -39,7 +39,7 @@ def convert_lines(lines: list[str]) -> list[dict]:
 		record = {
 			"template": sentence,
 			"entities": extract_entities(sentence),
-			"expose": parse_expose(expose_line),
+			"expose": parse_expose(expose_line)
 		}
 		records.append(record)
 	return records
@@ -67,6 +67,8 @@ def main() -> None:
 
 	lines = input_path.read_text(encoding="utf-8").splitlines()
 	records = convert_lines(lines)
+	for record in records:
+		record["group"] = [1] * len(record.get("expose", []))
 	output_path.write_text(
 		json.dumps(records, indent=2, ensure_ascii=False),
 		encoding="utf-8",

@@ -40,9 +40,9 @@ Domain Variation
 
 
 ===================================================================
-=========     Data set expectations
+                     Data set expectations
 ===================================================================
 
 Identify PII with type
 Identify Private/Public
-Identify Connectivity
+Identify Connectivity <---> repetetion  (also covers author relations)

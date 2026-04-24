@@ -21,10 +21,12 @@ def parse_sentences(text: str) -> list[dict]:
 			continue
 		entities = LABEL_PATTERN.findall(sentence)
 		expose = [current_expose] * len(entities)
+		group = [1]*len(entities)  
 		records.append({
 			"template": sentence,
 			"entities": entities,
 			"expose": expose,
+			"group": group
 		})
 	return records
 

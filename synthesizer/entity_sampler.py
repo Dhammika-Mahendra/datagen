@@ -1,7 +1,7 @@
 
 import random
 
-SAMPLING_COUNT = 2  # Number of values to sample per entity type (can be >1 for multi-entity templates)
+SAMPLING_COUNT = 5  # Number of values to sample per entity type (can be >1 for multi-entity templates)
 
 def sample_entities(entity_types: list[str], expose: list[str], group: list[str], pii_values: dict[str, list[str]]) -> list[dict]:
     array = []
